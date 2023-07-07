@@ -1,0 +1,21 @@
+From: Balint Reczey <rbalint@ubuntu.com>
+Date: Fri, 15 Dec 2017 19:26:43 -0500
+Subject: _skip_compile_schema_and_icon_cache_update
+
+---
+ meld/build_helpers.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+--- a/meld/build_helpers.py
++++ b/meld/build_helpers.py
+@@ -63,8 +63,8 @@
+     ]
+ 
+     def __init__(self, *args, **kwargs):
+-        self.no_update_icon_cache = False
+-        self.no_compile_schemas = False
++        self.no_update_icon_cache = True
++        self.no_compile_schemas = True
+         super().__init__(*args, **kwargs)
+ 
+ 

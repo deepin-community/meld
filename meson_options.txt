@@ -1,0 +1,12 @@
+option(
+  'profile',
+  type: 'combo',
+  choices: ['', 'Devel'],
+  description: 'Build with specified application ID',
+)
+option(
+  'byte-compile',
+  type: 'boolean',
+  value: true,
+  description: 'Byte-compile installed Python source files',
+)

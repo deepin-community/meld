@@ -1,0 +1,72 @@
+{
+  "app-id": "org.gnome.MeldDevel",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "master",
+  "sdk": "org.gnome.Sdk",
+  "command": "meld",
+  "cleanup": [
+    "/include",
+    "/lib/pkgconfig",
+    "/share/pkgconfig",
+    "/share/aclocal",
+    "/man",
+    "/share/man",
+    "/share/gtk-doc",
+    "/share/vala",
+    "*.la",
+    "*.a",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "build-options": {
+    "cflags": "-O2 -g",
+    "cxxflags": "-O2 -g",
+    "env": {
+      "V": "1"
+    }
+  },
+  "finish-args": [
+    "--share=ipc",
+    "--socket=x11",
+    "--socket=wayland",
+    "--filesystem=host",
+    "--talk-name=ca.desrt.dconf",
+    "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+  ],
+  "modules": [
+    {
+      "name": "gtksourceview",
+      "buildsystem": "meson",
+      "config-opts": [
+        "-Dgtk_doc=false"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://download.gnome.org/sources/gtksourceview/4.4/gtksourceview-4.4.0.tar.xz",
+          "sha256": "9ddb914aef70a29a66acd93b4f762d5681202e44094d2d6370e51c9e389e689a"
+        }
+      ]
+    },
+    {
+      "name": "meld",
+      "buildsystem": "meson",
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://gitlab.gnome.org/GNOME/meld.git"
+        }
+      ],
+      "config-opts": [
+        "-Dprofile=Devel"
+      ]
+    },
+    {
+      "name": "git",
+      "buildsystem": "simple",
+      "build-commands": [
+        "cp /usr/bin/git ${FLATPAK_DEST}/bin"
+      ]
+    }
+  ]
+}
