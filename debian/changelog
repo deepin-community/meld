@@ -1,5 +1,1006 @@
-template-repository (1.0-1) unstable; urgency=medium
+meld (3.22.0-2) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Use secure URI in Homepage field
+  * Add debian/upstream/metadta
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Mon, 12 Dec 2022 15:19:09 -0500
+
+meld (3.22.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Build with meson instead of pybuild
+  * Switch from gtksourceview3 to gtksourceview4
+  * debian/control.in: Set Rules-Requires-Root: no
+  * Bump Standards-Version to 4.6.1
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 07 Sep 2022 10:02:58 -0400
+
+meld (3.20.4-2) unstable; urgency=medium
+
+  * Team Upload
+  * debian/control: Don't depend on libcanberra-gtk3-module.
+    It is not needed for meld (anymore). (Closes: #996602)
+  * debian/control: Make the GNOME team the maintainer removing myself
+    from that role
+  * debian/control: Bump debhelper compat version to 13
+  * debian/copyright: Update removed/renamed files
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sat, 01 Jan 2022 22:24:44 +0100
+
+meld (3.20.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/copyright: Add copyright for AppStream metadata
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sat, 11 Sep 2021 15:28:02 -0400
+
+meld (3.20.3-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+    - Fix Subversion comparsion on Python 3.9 (Closes: #983851)
+
+ -- Balint Reczey <rbalint@ubuntu.com>  Thu, 11 Mar 2021 20:45:23 +0100
+
+meld (3.20.2-2) unstable; urgency=medium
+
+  * Build-depend on python3-distro (Closes: #959566)
+
+ -- Balint Reczey <rbalint@ubuntu.com>  Mon, 11 May 2020 15:11:35 +0200
+
+meld (3.20.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Balint Reczey <rbalint@ubuntu.com>  Fri, 21 Feb 2020 15:26:31 +0100
+
+meld (3.20.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Build-Depend on debhelper-compat 12 and drop debian/compat
+  * Build-Depend on dh-sequence-gnome and dh-sequence-python3
+  * Bump Standards-Version to 4.4.0
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sat, 28 Sep 2019 10:09:53 -0400
+
+meld (3.20.0-2) unstable; urgency=medium
+
+  * Re-add (build-)dependency on python3-gi-cairo (Closes: #919774)
+
+ -- Balint Reczey <rbalint@ubuntu.com>  Mon, 21 Jan 2019 15:29:25 +0700
+
+meld (3.20.0-1) unstable; urgency=medium
+
+  * New major upstream release
+    - Don't raise StopIteration for Python 3.7 compat (Closes: #916842)
+    - Make multiple --diff parameters work again (Closes: #865298)
+    - Multiple other fixes and improvements
+  * Refresh patches
+  * Stop shipping README since upstream stopped shipping it, too
+  * Update (build-)dependencies
+
+ -- Balint Reczey <rbalint@ubuntu.com>  Sun, 13 Jan 2019 15:00:43 +0700
+
+meld (3.18.3-1) unstable; urgency=medium
+
+  * New upstream release
+   - Fix initial focus pane for two-pane comparison (Kai Willadsen)
+   - Remove encoding fallback check that caused surrogate issues (Kai Willadsen)
+   - Fix display of file encoding errors in folder comparison (Kai Willadsen)
+   - Fix Git unpushed commit check for ambiguous filenames (Kai Willadsen)
+   - Translation updates
+  * debian/control: Drop X-Python3-Version field with ancient version
+
+ -- Balint Reczey <rbalint@ubuntu.com>  Sat, 01 Dec 2018 23:42:55 +0100
+
+meld (3.18.2-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #901593) (LP: #1768369)
+   - Fix incorrect state handling during tab close (Kai Willadsen)
+   - Fix commit action on a folder not working in git (Kai Willadsen)
+   - The Find bar now hides when pressing Escape (Vladimir Panteleev)
+   - Translation and help fixes (Piotr Drąg)
+   - Handle subprocess termination better in file comparisons (Kai Willadsen)
+   - Fix committing selected files only in Mercurial (Kai Willadsen)
+   - Fix Bazaar version control backend (Kai Willadsen)
+  * Refresh patches
+
+ -- Balint Reczey <rbalint@ubuntu.com>  Tue, 19 Jun 2018 23:30:39 +0200
+
+meld (3.18.0-6) unstable; urgency=medium
+
+  * Handle terminating diffing subprocesses to avoid severe memory leak
+    (LP: #1738296)
+
+ -- Balint Reczey <rbalint@ubuntu.com>  Tue, 24 Apr 2018 12:58:18 +0200
+
+meld (3.18.0-5) unstable; urgency=medium
+
+  * Build-Depend on python3-distutils (Closes: #896764)
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Bump debhelper compat to 11
+  * Bump Standards-Version to 4.1.4
+
+ -- Jeremy Bicha <jbicha@debian.org>  Tue, 24 Apr 2018 06:39:16 -0400
+
+meld (3.18.0-4) unstable; urgency=medium
+
+  * Update Vcs fields for conversion to git
+  * Add debian/gbp.conf
+  * Bump Standards-Version to 4.1.2
+  * Add vc.bzr-Fix-py3k-None-ordering-bgo-788487.patch:
+    - Cherry-pick patch to fix diffs for bzr
+
+ -- Jeremy Bicha <jbicha@debian.org>  Fri, 15 Dec 2017 19:34:01 -0500
+
+meld (3.18.0-3) unstable; urgency=medium
+
+  * debian/control.in:
+    - Build-Depend on python3-gi for build tests
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sun, 15 Oct 2017 15:11:06 -0400
+
+meld (3.18.0-2) unstable; urgency=medium
+
+  [ Balint Reczey ]
+  * Drop excessive spaces and unsupported version control systems from
+    description (Closes: #878120)
+
+  [ Jeremy Bicha ]
+  * Switch from cdbs to dh and pybuild
+  * Bump debhelper compat to 10
+  * Bump Standards-Version to 4.1.1
+  * Drop obsolete Build-Depends on scrollkeeper
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sun, 15 Oct 2017 14:30:55 -0400
+
+meld (3.18.0-1) unstable; urgency=medium
+
+  [ Jeremy Bicha ]
+  * debian/watch: Only watch for stable releases
+
+  [ Balint Reczey ]
+  * New major upstream release (Closes: #856898, #865791)
+  * Build-depend on python3 (>=3.3~) instead of python
+  * Bump dependencies to python3-gi (>= 3.14) and python3-gi-cairo
+  * Bump X-Python-Version to >= 3.3
+
+ -- Balint Reczey <rbalint@ubuntu.com>  Sun, 17 Sep 2017 00:25:48 +0200
+
+meld (3.16.4-1) unstable; urgency=medium
+
+  * New upstream release
+    - Make error displaying more robust with non-ASCII locales (Vasily Galkin)
+    - Handle themes with scrollbar steppers better (Kai Willadsen)
+    - Fix a traceback when pane has no file (Claude Paroz)
+    - Fix triggering "Delete Change" actions from menu (Kai Willadsen)
+    - Handle style theme not existing (Patrick Griffis)
+    - Fix unintentional glib requirement bump (Kai Willadsen)
+      (Closes: #846404)
+    - Translation updates
+
+ -- Balint Reczey <balint@balintreczey.hu>  Thu, 29 Dec 2016 01:33:38 +0100
+
+meld (3.16.3-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fix bad scroll syncing and inability to move between comparison
+      chunks in file comparisons (Vasily Galkin)
+    - Improve version control view behaviour when opening missing paths
+      (Vasily Galkin)
+    - Fix saving of text created in blank comparison (Vasily Galkin)
+    - GTK+ 3.22 compatibility fixes for saving window size (Kai Willadsen)
+    - Fix formatted patches missing newlines in certain cases
+      (Kai Willadsen)
+    - Silence GTK+ warning logging if not running in uninstalled (i.e.,
+      development) mode (Kai Willadsen)
+    - Update AppData (Kai Willadsen)
+    - Translation updates
+
+ -- Balint Reczey <balint@balintreczey.hu>  Mon, 26 Sep 2016 15:18:14 +0200
+
+meld (3.16.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fix performance regression in text filtering (Kai Willadsen)
+    - Fix regression in respecting custom text encoding (Kai Willadsen)
+    - Translation updates
+
+ -- Balint Reczey <balint@balintreczey.hu>  Mon, 01 Aug 2016 20:37:29 +0200
+
+meld (3.16.1-2) unstable; urgency=medium
+
+  * Bump GTK dependency versions to >= 3.14 (Closes: #830952)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Wed, 13 Jul 2016 18:29:09 +0200
+
+meld (3.16.1-1) unstable; urgency=medium
+
+  * New upstream release 3.16.1
+    - Fix regression in support for file comparisons from pipes
+      (Kai Willadsen) (Closes: #825979)
+    - Add open build service directories to the version control filter
+      (Dominique Leuenberger)
+    - Add darcs to list of loaded plugins (pbgc)
+    - Fix the dark style (Kai Willadsen)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Mon, 20 Jun 2016 20:30:06 +0200
+
+meld (3.16.0-1) unstable; urgency=low
+
+  * New upstream release 3.16.0 (Closes: #822993)
+    - Many new features and fixes, please see NEWS file for details
+    - Translation updates
+  * Bump standards version to 3.9.8
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sun, 01 May 2016 15:30:18 +0200
+
+meld (3.14.2-1) unstable; urgency=medium
+
+  * New upstream release 3.14.2
+    - Fixes:
+      * Fix some GTK+ assertions on window close (Zain)
+      * Fix commit error with unicode commit messages (Kai Willadsen)
+      * Add manual appdata kudos markers (Kai Willadsen)
+    - Translations:
+      * Anders Jonsson (sv)
+      * Josef Andersson (sv)
+      * Marek Černocký (cs)
+      * Milo Casagrande (it)
+      * Pedro Albuquerque (pt)
+      * Rafael Fontenelle (pt_BR)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Thu, 10 Dec 2015 00:12:09 +0100
+
+meld (3.14.1-1) unstable; urgency=medium
+
+  [Michael Biebl]
+  * Remove Debian menu entries
+
+  [ Balint Reczey ]
+  * New upstream release 3.14.1
+    - Features:
+      * Offer to open binary files externally (Pratik Dayama)
+      * Use locale-based default encodings (Kai Willadsen)
+    - Fixes
+      * Fix crash with some GTK+ versions when using –output (Kai Willadsen)
+      * Fix merge-all action not working at all (Kai Willadsen)
+      * Fix creating patches with unicode path names (Kai Willadsen)
+        (Closes: #784940)
+      * Fix copy-to-clipboard option in patch dialog (Kai Willadsen)
+      * Fix diffmap alignment for new GTK+ allocation behaviour
+        (Kai Willadsen)
+      * Improve float accuracy in folder comparison timestamp resolution
+        (Kai Willadsen)
+      * Fix default SVN keyword filter to escape $ characters (Kai Willadsen)
+      * Fix display of unicode –help from command line (Kai Willadsen)
+      * Fix keyboard shortcut docs (Kai Willadsen)
+      * Don’t incorrectly show identical notification for changed folder
+        comparisons (Kai Willadsen)
+    - Translations
+      * Polish (Piotr Drąg)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sun, 04 Oct 2015 10:09:17 +0200
+
+meld (3.14.0-1) unstable; urgency=medium
+
+  * New upstream release 3.14.0
+    - Many new features and fixes, please see NEWS file for details
+    - Translation updates
+  * Bump standards version
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sat, 25 Jul 2015 11:53:56 +0200
+
+meld (3.12.3-1) unstable; urgency=medium
+
+  * New upstream release 3.12.2
+    - Fixes:
+      * Fix display of change action buttons and line numbers when line
+        numbers are shown (Kai Willadsen)
+      * Fix positioning of the change action buttons (Kai Willadsen)
+      * Fix tab width setting not working correctly (Kai Willadsen)
+        (Closes: #780326)
+      * Fix starting comparison of Subversion checkouts from a subdirector
+        (Kai Willadsen)
+      * Fix starting Meld from a differently-named symlink (Kai Willadsen)
+      * Ignore errors when copying file metadata if the destination file
+        system doesn't support it (Kai Willadsen)
+      * Automatically recompile stale in-place gschemas (Kai Willadsen)
+      * Handle SIGINT to support previous quit-on-Ctrl-C behaviour
+        (Kai Willadsen)
+    - Translation updates
+  * New upstream release 3.12.3
+    - Fixes:
+      * Fix inconsistent file chooser when cancelling file selection
+        (Kai Willadsen) (Closes: #773839)
+      * UTF-8 encode patches created from the patch dialog (Kai Willadsen)
+      * Fix text-wrapping reset caused by the commit dialog (Kai Willadsen)
+      * Fix text background display on certain themes (Kai Willadsen)
+      * Fix for launching Meld with certain Git environment variables
+        (Kai Willadsen)
+    - Translation updates
+  * drop obsoleted patches
+
+ -- Balint Reczey <balint@balintreczey.hu>  Fri, 13 Mar 2015 18:45:16 +0100
+
+meld (3.12.1-2) unstable; urgency=medium
+
+  * Fix SIGINT handling by cherry-picking patch from upstream
+    (Closes: #768180)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Tue, 28 Oct 2014 00:52:16 +0100
+
+meld (3.12.1-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fixes:
+      * Work around change colours not displaying on GTK+ 3.14
+        (Kai Willadsen) (Closes: #764823)
+      * Fix missing cache opcodes in some circumstances (Kai Willadsen)
+      * Fix text view expansion when resizing patch dialog (Kai Willadsen)
+      * Build fix to always include C locale when LINGUAS is set
+        (Kai Willadsen)
+    - Translation updates
+  * Back-port patch to fix working with Subversion reposiories
+    (Closes: #764671)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sun, 26 Oct 2014 17:44:58 +0100
+
+meld (3.12.0-1) unstable; urgency=medium
+
+  * New upstream stable release
+    - Fixes:
+      * Ignore missing files when cleaning up our recently-used folder
+        (Kai Willadsen)
+      * Guard against dialogs missing properties they should definitely have
+        (Kai Willadsen)
+      * Remove old property from patch dialog (Kai Willadsen)
+    - Translation updates
+  * Update VCS URI to canonical one to keep Lintian happy
+  * Fix GNOME capitalization in detailed description
+  * Update d/copyright to latest upstream file hierarchy
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sat, 27 Sep 2014 11:05:05 +0200
+
+meld (3.11.4-1) experimental; urgency=medium
+
+  [Jackson Doak]
+  * New upstream development release
+    - Fixes:
+      * Only apply the auto merge flag to the last comparison started
+        (Kai Willadsen)
+      * Fix install layout issues on Debian-based systems (Kai Willadsen)
+      * Revert to using latin1 as a fallback encoding; this will be reverted
+        in the next unstable series (Kai Willadsen)
+    - Translation updates
+  * Drop 02_remove_install_layout.patch, fixed upstream
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sat, 20 Sep 2014 09:23:57 +0200
+
+meld (3.11.3-1) experimental; urgency=medium
+
+  * New upstream development release
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sat, 23 Aug 2014 21:43:46 +0200
+
+meld (3.11.2-1) experimental; urgency=medium
+
+  [ Jackson Doak <noskcaj@ubuntu.com> ]
+  * New upstream release
+  * Add 02_remove_install_layout.patch from ubuntu. Fixes their ftbfs.
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sun, 20 Jul 2014 03:05:38 +0200
+
+meld (3.11.1-1) experimental; urgency=low
+
+  * New upstream development release:
+    - Features:
+      * New (alpha) infrastructure for stand-alone Windows builds
+        (Kai Willadsen)
+      * Display renames and metadata in Bazaar repositories (Louis des Landes)
+      * Improved tab labels in version control comparisons (Kai Willadsen)
+      * New merge-order preference to accompany comparison-order (Kai Willadsen)
+      * Added a prompt to mark a conflict as resolved from file comparison
+        (Kai Willadsen)
+    - Fixes:
+      * Fix filtering for shallow folder comparisons (Casey)
+      * Several install and distribution fixes (Kai Willadsen)
+      * Sundry bug fixes (Dominique Leuenberger, Thomas Klausner,
+        Louis des Landes, Kai Willadsen)
+  * Ship GSettings schema (Closes: #522015)
+  * Drop obsolete patch fixing meld's shebang. It is done automatically now.
+  * Drop obsoletely recommended gir1.2-gconf-2.0
+
+ -- Balint Reczey <balint@balintreczey.hu>  Mon, 26 May 2014 10:25:13 +0700
+
+meld (3.11.0-1) experimental; urgency=low
+
+  * New upstream development release:
+    - Features:
+      * Supporting hiding empty filtered folders in folder comparison
+        (Gianni Trovisi, Kai Willadsen)
+      * Notify user when files change externally in file comparison
+        (Kai Willadsen)
+      * Use standard GIO file trash handling when deleting files (Kai Willadsen)
+      * Newly written Mallard-based help (Kai Willadsen)
+    - User interface updates:
+      * Support GNOME 3-style application menu (Kai Willadsen)
+      * Visual improvements to several icons (Kai Willadsen)
+      * Update Meld's colour scheme (Kai Willadsen)
+      * Many visual styling updates, layout tweaks and UI polish (Kai Willadsen)
+    - Internal changes:
+      * Port to GObject introspection, GTK+ 3, GApplication, GSettings and other
+        new things starting with 'G' (Kai Willadsen)
+      * Port to distutils, based on python-distutils-extra (Kai Willadsen)
+      * Move to using CSS for styling and colour definitions (Kai Willadsen)
+      * Update to use more modern GTK widgets (Peter Tyser, Kai Willadsen)
+      * Move a lot of extra UI construction into glade/UI files (Kai Willadsen)
+      * Make several custom icons themeable (Kai Willadsen)
+      * Make Meld a single-instance application, and add support for multiple
+        windows (Kai Willadsen)
+  * Update dependencies to use GTK 3 libraries and GObject introspection,
+    namely libgtk-3-0, python-gi, libgtksourceview-3.0-1,
+    gir1.2-gtksource-3.0, python-gi-cairo and libcanberra-gtk3-module
+  * Depend on GtkSourceView instead of just recommending it
+  * Build depend on dh-python, itstool and libxml2-utils
+  * Drop obsolete empty-directory.patch and sourceview-package.patch patches
+
+ -- Balint Reczey <balint@balintreczey.hu>  Thu, 23 Jan 2014 21:03:05 +0100
+
+meld (1.8.4-1) unstable; urgency=low
+
+  * New upstream release:
+    - Fix crash when scanning CVS-only folders (Kai Willadsen)
+    - Fix crash on Windows when missing cdll.intl (Bartosz Dziewoński)
+    - Fix crash with Italian (it_IT.utf8) locale (Balint Reczey)
+    - Updated translations
+  * Drop obsolete 0001-Fix-crash-with-Italian-it_IT.utf8-locale.patch
+
+ -- Balint Reczey <balint@balintreczey.hu>  Thu, 23 Jan 2014 20:46:42 +0100
+
+meld (1.8.3-2) unstable; urgency=low
+
+  * Fix crash with Italian locale
+
+ -- Balint Reczey <balint@balintreczey.hu>  Thu, 26 Dec 2013 22:00:31 +0100
+
+meld (1.8.3-1) unstable; urgency=low
+
+  * New upstream release:
+    - Fix subdirectory comparisons for Subversion 1.6 (Ben Ross)
+    - Fix git status parsing for some statuses (Tom Scytale)
+    - Don't disable updating when syncpoints aren't yet active (Kai Willadsen)
+    - Fix modifying column properties causing crashes when using .ini config
+      backend (Kai Willadsen)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sun, 15 Dec 2013 01:46:21 +0100
+
+meld (1.8.2-1) unstable; urgency=medium
+
+  * New upstream release:
+    - Fix regression selecting Subversion 1.6 repositories
+    - Updated translations
+    - Minor fixes
+
+ -- Balint Reczey <balint@balintreczey.hu>  Fri, 18 Oct 2013 10:27:59 +0200
+
+meld (1.8.1-1) unstable; urgency=low
+
+  * New upstream release:
+    - Change order of version control selection for CVS and old SVN
+    - Fix escaped markup in folder comparisons
+    - Updated translations
+  * debian/copyright
+    - update FSF's address
+
+ -- Balint Reczey <balint@balintreczey.hu>  Mon, 23 Sep 2013 15:10:40 +0200
+
+meld (1.8.0-1) unstable; urgency=low
+
+  * New upstream release:
+    - Open new tab in existing Meld instance using --new-tab option
+      (Closes: #457552)
+    - Better handling of version controlled directories (Closes: #687111)
+    - Improved theme colour handling (Closes: #444996)
+    - Minor fixes (Closes: #685164, #296553, #688058)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sun, 15 Sep 2013 11:22:09 +0200
+
+meld (1.7.5-1) experimental; urgency=low
+
+  * New upstream development snapshot release 1.7.5
+  * Drop Arch, Codeville and RCS as supported VCS-es in the package
+    documentation
+  * Drop copyright-fsf-address.patch and man1-hyphen-to-minus.patch since
+    they have been integrated upstream
+  * debian/control.in:
+    - Standards-Version is 3.9.5, no changes needed.
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sun, 01 Sep 2013 10:01:57 +0200
+
+meld (1.7.4-1) experimental; urgency=low
+
+  * New upstream development snapshot release 1.7.4
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sun, 28 Jul 2013 11:35:53 +0200
+
+meld (1.7.3-1) experimental; urgency=low
+
+  * New upstream development snapshot release 1.7.3
+  * Setting myself as the maintainer of the package with Ross's agreement
+    Many thanks to Ross Burton for taking care of the package for long years!
+  * debian/control.in:
+    - drop DM-Upload-Allowed field
+
+ -- Balint Reczey <balint@balintreczey.hu>  Wed, 12 Jun 2013 18:59:51 -0600
+
+meld (1.7.2-1) experimental; urgency=low
+
+  [Boruch Baum <boruch_baum@gmx.com> ]
+  * New upstream development snapshot release
+    I have to note here that Gianfranco Costamagna
+    <costamagnagianfranco@yahoo.it> sent me patches updating the Debian
+    package in very similar ways, too.
+  * debian/control.in:
+    - Standards-Version is 3.9.4, no changes needed.
+    - debhelper updated to 9
+    - expanded length of long description
+  * debian/compat
+    - updated from 5 to 9
+  * debian/copyright
+    - updated to format	1.0
+    - added copyright and license details
+
+ -- Balint Reczey <balint@balintreczey.hu>  Thu, 23 May 2013 16:37:08 -0500
+
+meld (1.6.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Balint Reczey <balint@balintreczey.hu>  Wed, 07 Nov 2012 14:52:01 +0100
+
+meld (1.6.0-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control.in:
+    - Standards-Version is 3.9.3, no changes needed.
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sat, 28 Apr 2012 13:34:10 +0200
+
+meld (1.5.4-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Balint Reczey <balint@balintreczey.hu>  Mon, 02 Apr 2012 23:29:36 +0200
+
+meld (1.5.3-1) experimental; urgency=low
+
+  [ Balint Reczey ]
+  * New upstream development release
+    - remove AUTHORS file
+  * debian/control.in:
+    - Added the new homepage
+  * debian/rules
+    - Don't ship NEWS file as changelog, too
+
+  [ Josselin Mouette ]
+  * Replace python-gobject by python-gobject-2.
+
+ -- Balint Reczey <balint@balintreczey.hu>  Sat, 28 Jan 2012 15:50:48 -0700
+
+meld (1.5.2-1) experimental; urgency=low
+
+  [ Balint Reczey ]
+  * New upstream development release (Closes: #635303)
+  * debian/control.in:
+    - Standards-Version is 3.9.2, no changes needed.
+    - Allow DM uploads
+  * transition from dh_pysupport to dh_python2 (Closes: #635936)
+  * depend on Python >= 2.6
+  * update debian/watch to check *.tar.xz
+
+  [ Josselin Mouette ]
+  * Add missing dependency on patch. Closes: #629824.
+
+ -- Balint Reczey <balint@balintreczey.hu>  Thu, 07 Apr 2011 19:28:14 +0200
+
+meld (1.5.1-1) experimental; urgency=low
+
+  * New upstream development release (Closes: #619078)
+    - Start file chooser dialogs from last location (Closes: #388343)
+    - Add support for the Fossil SCM
+
+ -- Balint Reczey <balint@balintreczey.hu>  Tue, 22 Mar 2011 17:23:15 +0100
+
+meld (1.5.0-1) experimental; urgency=low
+
+  * New upstream release
+    - Use TextBuffer instead of maintaining duplicate copy of text
+      (Closes: #602988)
+    - Use Subversion's XML status output (Closes: #545359)
+    - Use bzr 'short' status for more robust parsing (Closes: #565253)
+    - Add a man page (Peter Tyser)
+    - Require Python 2.5, Gtk+/PyGtk 2.14, PyGtkSourceView 2.4 (optional)
+  * bump version of dependencies
+  * depend on python-gobject
+  * drop Debian specific man page
+
+ -- Balint Reczey <balint@balintreczey.hu>  Thu, 30 Dec 2010 15:11:35 +0100
+
+meld (1.4.0-2) unstable; urgency=low
+
+  * Re-upload to unstable
+
+ -- Balint Reczey <balint@balintreczey.hu>  Mon, 07 Feb 2011 13:10:48 +0100
+
+meld (1.4.0-1) experimental; urgency=low
+
+  * New upstream release
+  * Drop fix-chinese-translation.patch as it has been integrated upstream
+
+ -- Balint Reczey <balint@balintreczey.hu>  Tue, 28 Sep 2010 14:29:19 +0200
+
+meld (1.3.2-2) unstable; urgency=low
+
+  [ Balint Reczey ]
+  * debian/control.in:
+    - Standards-Version is 3.9.1, no changes needed.
+
+  [Adam Collard]
+  * fix-chinese-translation.patch: stolen from upstream's GIT. Fix a crash
+    when launching meld in a zh_CN environment. (Closes: #595025)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Wed, 04 Aug 2010 16:56:52 +0200
+
+meld (1.3.2-1) unstable; urgency=low
+
+  [ Josselin Mouette ]
+  * vcs-crash.patch: stolen upstream. Fix a crash when using CVS, svn or
+    git. Closes: #584554.
+
+  [ Balint Reczey ]
+  * New upstream release
+    - Added support for diffing a file and a directory (Closes: #567340)
+    - Translation updates (Thanks to Holger Wansing) (Closes: #313985)
+    - vcs-crash.patch: removed, included upstream.
+  * run meld using /usr/bin/python instead of env python (Closes: #551189)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Thu, 24 Jun 2010 23:54:27 +0200
+
+meld (1.3.1-1) unstable; urgency=low
+
+  [ Balint Reczey ]
+  * New upstream release (Closes: #562989)
+    - Speed up file comparisons and highlighting, significantly improving
+      interactive editing performance (Closes: #309070)
+    - Modifier keys not reset when focus change (Closes: #470781)
+    - Version control filter updates (Closes: #506386)
+    - Warp the text cursor to the start of jumped-to diff chunks
+      (Closes: #523571)
+    - Add RCS support (Closes: #432928)
+    - Make CTRL+D and CTRL+E position the cursor(Closes: #523572)
+    - Don't stop comparing dirs on read permission error (Closes: #530496)
+    - Make Save-on-exit dialog clearer (Closes: #392124)
+  * Drop pythonpath.patch as it has been integrated upstream
+  * debian/copyright:
+    - Update email of the author (Closes: #531632)
+  * debian/control.in:
+    - Recommend python-gtksourceview2 (Closes: #544840)
+    - Add Vcs-* fields
+    - Standards-Version is 3.8.4, no changes needed.
+
+  [ Emilio Pozuelo Monfort ]
+  * debian/source/format,
+    debian/patches/series,
+    debian/rules:
+    - Convert to source format 3.0 (quilt).
+  * debian/patches/sourceview-package.patch:
+    - Refreshed to apply cleanly.
+  * debian/pycompat:
+    - Removed, not needed.
+
+ -- Balint Reczey <balint@balintreczey.hu>  Tue, 20 Apr 2010 00:27:49 +0200
+
+meld (1.3.0-2) unstable; urgency=low
+
+  * debian/control.in:
+    - Stop recommending python-gnome2-desktop, meld doesn't use any module
+      from python-gnome-desktop. Closes: #541557.
+    - Stop depending on python-gnome2, recommend it since meld may use
+      the gnomevfs module, and recommend python-gconf for the config.
+      Closes: #533748.
+    - Standards-Version is 3.8.3, no changes needed.
+    - Remove dh_scrollkeeper call, it's deprecated now.
+    - Build depend on python rather than python-dev.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Tue, 01 Sep 2009 20:16:33 +0200
+
+meld (1.3.0-1) unstable; urgency=low
+
+  * New upstream release (Closes: #528327)
+    - Copy/paste behaviour fixes (Closes: #523576)
+    - Dotfiles and removals handled in darcs (Closes: #509069)
+    - Can handle Mercurial repos (Closes: #428843)
+    - Up/Down patch used to skip changes (Closes: #511027)
+    - Handle last line when highlighting properly (Closes: #465804)
+  * Update message and depends for new python-gtksourceview2 package
+  * Resync makefile.patch
+  * Remove python-gnome dependency
+
+ -- Ross Burton <ross@debian.org>  Tue, 02 Jun 2009 10:00:20 +0100
+
+meld (1.2.1-1) unstable; urgency=low
+
+  * New upstream release (Closes: #513609, #500629, #473091, #456530, #473487)
+  * Refresh makefile.patch
+  * pythonpath.patch: prepend instead of append private path (Closes: #471154)
+  * Fix menu section
+
+ -- Ross Burton <ross@debian.org>  Wed, 18 Feb 2009 17:42:15 +0000
+
+meld (1.1.5.1-2) unstable; urgency=low
+
+  * Really change python-gnome2-extras to -desktop (Closes: #444350)
+  * Also really recommend yelp.
+
+ -- Ross Burton <ross@debian.org>  Fri, 28 Sep 2007 15:46:03 +0100
+
+meld (1.1.5.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add Recommends to Yelp so that help works (Closes: #421832)
+  * When sourceview can't be found, tell the user what package to
+    install (Closes: #415683)
+  * Change python-gnome2-extras to python-gnome2-desktop
+
+ -- Ross Burton <ross@debian.org>  Tue,  4 Sep 2007 09:20:43 +0100
+
+meld (1.1.5-1) unstable; urgency=low
+
+  * Add Debian GNOME Maintainers to Uploaders; build-dep on gnome-pkg-tools.
+  * Cleanups.
+  * Update URL in copyright.
+  * Wrap build-deps and deps.
+  * Use debian/meld.menu instead of debian/menu.
+  * Drop dangerous empty postinst.
+  * Install manpages via debian/meld.manpages instead of
+    DEB_INSTALL_MANPAGES_meld.
+  * Bump up Debhelper compatibility level to 5.
+  * Update URL in watch file.
+  * Add a get-orig-source target to retrieve the upstream source.
+  * Add ${misc:Depends}.
+  * Set Python compatibility version to 2; add XS and XB-Python-Version.
+  * New upstream release.
+    - Drop patch "plurals"; doesn't apply anymore and it seems to build fine
+      without now.
+    - Drop patch "scrollkeeper" and add a rule to drop installed scrollkeeper
+      files; partially applied upstream and I don't understand what the
+      reminder of the patch was meant to fix.
+
+ -- Loic Minier <lool@dooz.org>  Sat, 09 Jun 2007 20:35:36 +0200
+
+meld (1.1.4-1) unstable; urgency=low
+
+  * Acknowledge NMU
+  * New upstream release (Closes: #382055)
+    - Tab width fixes (Closes: #372587)
+
+ -- Ross Burton <ross@debian.org>  Fri, 27 Apr 2007 10:02:37 +0100
+
+meld (1.1.3-1.2) unstable; urgency=medium
+
+  * Non-maintainer upload to fix build failure.
+  * Remove duplicate plurals for languages with only one nplurals;
+    fixes build failure with newer gettext (Closes: #385177).
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Fri, 15 Sep 2006 14:09:05 +0200
+
+meld (1.1.3-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Update package to the new python policy (Closes: #380868):
+    + use dh_pysupport instead of dh_python.
+    + remove custom postinst.
+  * Bump Standards-Version to 3.7.2.
+  * Fix B-D versus B-D-I for cdbs, and debhelper.
+
+ -- Pierre Habouzit <madcoder@debian.org>  Thu, 10 Aug 2006 19:02:41 +0200
+
+meld (1.1.3-1) unstable; urgency=low
+
+  * New upstream release (closes: #355022)
+  - remove fr.diff, fixed upstream
+  - add scrollkeeper.diff, to fix up Scrollkeeper
+
+ -- Ross Burton <ross@debian.org>  Fri,  3 Mar 2006 10:26:17 +0000
+
+meld (1.1.2-1) unstable; urgency=low
+
+  * New upstream release (closes: #341184)
+
+ -- Ross Burton <ross@debian.org>  Thu,  8 Dec 2005 11:25:19 +0000
+
+meld (1.1.1-2) unstable; urgency=low
+
+  * debian/copyright: Fix FSF address.
+  * debian/rules: Package upstream changelog (closes: #337665)
+
+ -- Ross Burton <ross@debian.org>  Sun,  6 Nov 2005 13:13:40 +0000
+
+meld (1.1.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Increase Standards Version.
+
+ -- Ross Burton <ross@debian.org>  Sat, 29 Oct 2005 14:33:08 +0100
+
+meld (1.0.0-1) unstable; urgency=low
+
+  * New upstream release (closes: #329628)
+  * Recommend python-gnome2-extras for pygtksourceview (closes: #310808)
+  * debian/patches/fr.diff: from upstream to fix French translation
+
+ -- Ross Burton <ross@debian.org>  Fri, 23 Sep 2005 14:13:58 +0100
+
+meld (0.9.4.1+20050125-4) unstable; urgency=low
+
+  * Add debian/watch
+  * Fix typo in man page (closes: #298732)
+
+ -- Ross Burton <ross@debian.org>  Thu, 31 Mar 2005 11:18:16 +0100
+
+meld (0.9.4.1+20050125-3) unstable; urgency=low
+
+  * Build-dep on scrollkeeper (closes: #292950)
+
+ -- Ross Burton <ross@debian.org>  Mon, 31 Jan 2005 15:39:44 +0000
+
+meld (0.9.4.1+20050125-2) unstable; urgency=low
+
+  * Don't install meld.applications, GNOME currently doesn't support
+    registering against directory MIME types (closes: #292805)
+
+ -- Ross Burton <ross@debian.org>  Sun, 30 Jan 2005 14:44:27 +0000
+
+meld (0.9.4.1+20050125-1) unstable; urgency=low
+
+  * Snapshot from CVS (closes: #291914)
+    - Depends on new libglade (closes: #287167)
+  * Move to CDBS
+  * Lower-case the synopsis
+
+ -- Ross Burton <ross@debian.org>  Fri, 13 Aug 2004 18:31:01 +0100
+
+meld (0.9.4.1-1) unstable; urgency=low
+
+  * New upstream release (closes: #262632)
+
+ -- Ross Burton <ross@debian.org>  Wed, 11 Aug 2004 08:10:28 +0100
+
+meld (0.9.3-1) unstable; urgency=low
+
+  * New upstream release (closes: #253113)
+  * Handles both_horiz and -horiz (closes: #218045)
+
+ -- Ross Burton <ross@debian.org>  Mon,  7 Jun 2004 10:57:36 +0100
+
+meld (0.9.2.1-2) unstable; urgency=low
+
+  * Add Build-Depend on intltool (closes: #235090)
+
+ -- Ross Burton <ross@debian.org>  Mon,  1 Mar 2004 12:15:44 +0000
+
+meld (0.9.2.1-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/rules: rewrite now upstream makefile uses $DISTDIR
+  * debian/menu: add quotes
+
+ -- Ross Burton <ross@debian.org>  Wed, 18 Feb 2004 08:57:29 +0000
+
+meld (0.9.0-1) unstable; urgency=low
+
+  * New upstream release
+  * Install upstream changelog
+  * Install documentation stylesheet
+
+ -- Ross Burton <ross@debian.org>  Mon, 13 Oct 2003 17:37:08 +0100
+
+meld (0.8.5-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ross Burton <ross@debian.org>  Tue,  2 Sep 2003 19:01:26 +0100
+
+meld (0.8.4-2) unstable; urgency=low
+
+  * Rebuild for python 2.3 (closes: #204812)
+  * Move to Standard 3.6.0.
+
+ -- Ross Burton <ross@debian.org>  Mon, 11 Aug 2003 11:18:17 +0100
+
+meld (0.8.4-1) unstable; urgency=low
+
+  * New upstream release
+  * Cut/Copy/Paste shortcuts now work (closes: #184290)
+
+ -- Ross Burton <ross@debian.org>  Thu, 31 Jul 2003 12:42:08 +0100
+
+meld (0.8.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ross Burton <ross@debian.org>  Tue, 24 Jun 2003 08:58:17 +0100
+
+meld (0.8.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ross Burton <ross@debian.org>  Tue, 20 May 2003 15:38:33 +0100
+
+meld (0.7.1-2) unstable; urgency=low
+
+  * debian/control: Move to section 'gnome'.
+
+ -- Ross Burton <ross@debian.org>  Tue, 29 Apr 2003 12:38:42 +0100
+
+meld (0.7.1-1) unstable; urgency=low
+
+  * New upstream release
+  * Updated debian/* for new debian.org email address.
+
+ -- Ross Burton <ross@debian.org>  Tue, 29 Apr 2003 11:24:28 +0100
+
+meld (0.7.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ross Burton <ross@burtonini.com>  Thu, 27 Mar 2003 17:38:03 +0000
+
+meld (0.6.6-2) unstable; urgency=low
+
+  * Move Python code to /usr/lib/meld.
+  * Remove /usr/share/meld/*.py[co] in postinst.
+
+ -- Ross Burton <ross@burtonini.com>  Fri, 28 Feb 2003 09:22:19 +0000
+
+meld (0.6.6-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump to debhelper version 4, Standards 3.5.8.
+  * Use dh_python.
+
+ -- Ross Burton <ross@burtonini.com>  Fri, 14 Feb 2003 08:55:01 +0000
+
+meld (0.6.4-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ross Burton <ross@burtonini.com>  Thu, 30 Jan 2003 11:25:00 +0000
+
+meld (0.6.3-2) unstable; urgency=low
+
+  * Fix directory diff with a patch from upstream. (closes: #169875)
+
+ -- Ross Burton <ross@burtonini.com>  Sat, 21 Dec 2002 15:18:12 +0000
+
+meld (0.6.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Require a specific version of python-gtk2, as we expect the new
+    layout. (closes: #172048)
+
+ -- Ross Burton <ross@burtonini.com>  Sun, 15 Dec 2002 16:55:56 +0000
+
+meld (0.6.2-1) unstable; urgency=low
+
+  * New upstream release (closes: #171018)
+  * This release has included some missing images (closes: #169875)
+
+ -- Ross Burton <ross@burtonini.com>  Wed, 27 Nov 2002 12:37:17 +0000
+
+meld (0.6.1-1) unstable; urgency=low
+
+  * Initial Release. (closes: #163421)
+
+ -- Ross Burton <ross@burtonini.com>  Wed, 13 Nov 2002 08:31:18 +0000

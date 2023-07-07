@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@
+	dh $@ --buildsystem=meson
+
+execute_before_dh_install:
+	find debian/meld -name 'COPYING' -delete
