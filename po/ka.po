@@ -1,45 +1,40 @@
-# Swedish messages for meld.
-# Copyright © 2005-2022 Free Software Foundation, Inc.
-# Christian Rose <menthos@menthos.com>, 2005.
-# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2011.
-# Sebastian Rasmussen <sebras@gmail.com>, 2015.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2016, 2018, 2019, 2020, 2021, 2022.
-# Josef Andersson <l10nl18nsweja@gmail.com>, 2014, 2015, 2016, 2017.
-# Luna Jernberg <droidbittin@gmail.com>, 2021, 2022.
+# Georgian translation for meld.
+# Copyright (C) 2022 meld's COPYRIGHT HOLDER
+# This file is distributed under the same license as the meld package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: meld\n"
+"Project-Id-Version: meld meld-3-22\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/meld/issues\n"
-"POT-Creation-Date: 2022-10-31 11:15+0000\n"
-"PO-Revision-Date: 2022-10-31 16:17+0100\n"
-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
-"Language: sv\n"
+"POT-Creation-Date: 2022-11-20 14:41+0000\n"
+"PO-Revision-Date: 2022-12-01 11:55+0100\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <ka@li.org>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
-"X-Project-Style: gnome\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2\n"
 
 #: data/org.gnome.meld.desktop.in.in:3 data/org.gnome.meld.appdata.xml.in.in:11
 #: meld/resources/ui/appwindow.ui:9 meld/resources/ui/appwindow.ui:17
 msgid "Meld"
-msgstr "Meld"
+msgstr ""
 
 #: data/org.gnome.meld.desktop.in.in:4
 msgid "Diff Viewer"
-msgstr "Diffvisare"
+msgstr ""
 
 #: data/org.gnome.meld.desktop.in.in:5 data/org.gnome.meld.appdata.xml.in.in:12
 msgid "Compare and merge your files"
-msgstr "Jämför och sammanfoga dina filer"
+msgstr ""
 
 #. TRANSLATORS: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.meld.desktop.in.in:7
 msgid "diff;merge;"
-msgstr "diff;merge;sammanfogning;"
+msgstr ""
 
 #: data/org.gnome.meld.appdata.xml.in.in:14
 msgid ""
@@ -48,59 +43,50 @@ msgid ""
 "two- and three-way comparison of both files and directories, and supports "
 "many version control systems including Git, Mercurial, Bazaar and Subversion."
 msgstr ""
-"Meld är ett visuellt diff- och sammanfogningsverktyg riktat till utvecklare. "
-"Meld hjälper dig att jämföra filer, kataloger och versionshanterade projekt. "
-"Det erbjuder två- och trevägsjämförelser av både filer och kataloger samt "
-"stöder många versionshanteringssystem som Git, Mercurial, Bazaar och "
-"Subversion."
 
 #: data/org.gnome.meld.appdata.xml.in.in:21
 msgid ""
 "Meld helps you review code changes, understand patches, and makes enormous "
 "merge conflicts slightly less painful."
 msgstr ""
-"Meld hjälper dig att granska kodändringar, förstå programfixar och göra "
-"enorma sammanfogningskonflikter något mindre smärtsamma."
 
 #: data/org.gnome.meld.appdata.xml.in.in:51
 msgid "The GNOME Project"
-msgstr "GNOME-projektet"
+msgstr "პროექტი \"GNOME\""
 
 #: data/mime/org.gnome.meld.xml.in:4
 msgid "Meld comparison description"
-msgstr "Meld jämförelsebeskrivning"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:37
 msgid "Default window width"
-msgstr "Standardbredd för fönster"
+msgstr "ფანჯრის ნაგულისხმები სიგანე"
 
 #: data/org.gnome.meld.gschema.xml:41
 msgid "Default window height"
-msgstr "Standardhöjd för fönster"
+msgstr "ფანჯრის ნაგულისხმები სიგრძე"
 
 #: data/org.gnome.meld.gschema.xml:45
 msgid "Default window maximised state"
-msgstr "Maximeringstillstånd för standardfönster"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:49
 msgid "Default window fullscreen state"
-msgstr "Helskärmstillstånd för standardfönster"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:58
 msgid "Prefer application-wide dark theme"
-msgstr "Föredra mörkt tema i programmet"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:59
 msgid ""
 "If true, the GTK dark theme variant will be used, if available. Note that "
 "this is separate from the syntax highlighting scheme."
 msgstr ""
-"Om true (sant) kommer den mörka GTK-temavarianten användas om tillgänglig. "
-"Observera att detta är åtskilt från schemat för syntaxmarkering."
 
 #: data/org.gnome.meld.gschema.xml:65
 msgid "Additional automatically detected text encodings"
-msgstr "Ytterligare automatiskt upptäckta textkodningar"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:66
 msgid ""
@@ -109,72 +95,62 @@ msgid ""
 "and the current locale-default encoding will always be used; other encodings "
 "may also be tried, depending on the user’s locale."
 msgstr ""
-"Meld kommer använda dessa textkodningar för att försöka avkoda inlästa "
-"textfiler innan andra kodningar provas. Utöver kodningarna i denna lista "
-"kommer UTF-8 och standardkodningen för aktuell lokal alltid att användas. "
-"Andra kodningar kan också provas beroende på användarens lokal."
 
 #: data/org.gnome.meld.gschema.xml:73
 msgid "Width of an indentation step"
-msgstr "Bredden på ett indenteringssteg"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:74
 msgid "The number of spaces to use for a single indent step"
-msgstr "Antalet blanksteg att använda för ett ensamt indenteringssteg"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:78
 msgid "Whether to indent using spaces or tabs"
-msgstr "Huruvida indentering sker med blanksteg eller tabb"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:79
 msgid "If true, any new indentation will use spaces instead of tabs."
 msgstr ""
-"Om true kommer nya indenteringar att använda blanksteg istället för tabbar."
 
 #: data/org.gnome.meld.gschema.xml:83 meld/resources/ui/statusbar-menu.ui:5
 msgid "Show line numbers"
-msgstr "Visa radnummer"
+msgstr "ხაზის ნომრების ჩვენება"
 
 #: data/org.gnome.meld.gschema.xml:84
 msgid "If true, line numbers will be shown in the gutter of file comparisons."
-msgstr "Om true visas radnummer i marginalen på filjämförelserna."
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:88
 msgid "Highlight syntax"
-msgstr "Markera syntax"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:89
 msgid ""
 "Whether to highlight syntax in comparisons. Because of Meld’s own color "
 "highlighting, this is off by default."
 msgstr ""
-"Huruvida syntax ska markeras i jämförelser. På grund av Melds egna "
-"färgmarkeringar är detta som standard av."
 
 #: data/org.gnome.meld.gschema.xml:93
 msgid "Color scheme to use for syntax highlighting"
-msgstr "Färgschema att använda för syntaxmarkering"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:94
 msgid "Used by GtkSourceView to determine colors for syntax highlighting"
 msgstr ""
-"Används av GtkSourceView för att bestämma färger för färgmarkering av syntax"
 
 #: data/org.gnome.meld.gschema.xml:98
 msgid "Draw whitespace"
-msgstr "Rita ut tomrum"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:99
 msgid ""
 "If true, whitespace characters will be drawn in comparisons even if they are "
 "not in a changed area."
 msgstr ""
-"Om true (sant), kommer tomrumstecken att ritas ut i jämförelser även om de "
-"inte är i ett ändrat område."
 
 #: data/org.gnome.meld.gschema.xml:108
 msgid "Wrap mode"
-msgstr "Radbrytningsläge"
+msgstr "გადატანის რეჟიმი"
 
 #: data/org.gnome.meld.gschema.xml:109
 msgid ""
@@ -182,121 +158,105 @@ msgid ""
 "not at all ('none'), at any character ('char') or only at the end of words "
 "('word')."
 msgstr ""
-"Rader i filjämförelser kommer att radbrytas enligt denna inställning, "
-"antingen inte alls (\"none\"), vid vilket tecken som helst (\"char\") eller "
-"bara vid slutet av ord (\"word\")."
 
 #: data/org.gnome.meld.gschema.xml:116 meld/resources/ui/statusbar-menu.ui:13
 msgid "Highlight current line"
-msgstr "Markera aktuell rad"
+msgstr "მიმდინარე ხაზის გამოკვეთა"
 
 #: data/org.gnome.meld.gschema.xml:117
 msgid ""
 "If true, the line containing the cursor will be highlighted in file "
 "comparisons."
-msgstr "Om true kommer raden med markören att bli markerad i filjämförelser."
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:121
 msgid "Use the system default monospace font"
-msgstr "Använd systemets standard typsnitt med fast breddsteg"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:122
 msgid ""
 "If false, custom-font will be used instead of the system monospace font."
 msgstr ""
-"Om false kommer det anpassade typsnittet att användas istället för systemets "
-"monospace-typsnitt."
 
 #: data/org.gnome.meld.gschema.xml:126
 msgid "Custom font"
-msgstr "Anpassat typsnitt"
+msgstr "ხელით მითითებული ფონტი"
 
 #: data/org.gnome.meld.gschema.xml:127
 msgid ""
 "The custom font to use, stored as a string and parsed as a Pango font "
 "description."
 msgstr ""
-"Det anpassade typsnittet att använda, lagrat som en sträng och tolkat som en "
-"som en Pango typsnittsbeskrivning."
 
 #: data/org.gnome.meld.gschema.xml:133
 msgid "Show overview source map"
-msgstr "Visa översiktskällkodskarta"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:134
 msgid ""
 "If true, file comparisons will have paired source maps for compared files."
 msgstr ""
-"Om true (sant), kommer filjämförelser ha ihopparade källkodskartor för "
-"jämförda filer."
 
 #: data/org.gnome.meld.gschema.xml:139
 msgid "Style of overview map"
-msgstr "Stil för översiktskarta"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:140
 msgid "Style options for how the overview map is displayed."
-msgstr "Stilalternativ för hur översiktskartan visas."
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:146
 msgid "Ignore blank lines when comparing files"
-msgstr "Ignorera tomma rader vid filjämförelser"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:147
 msgid ""
 "If true, blank lines will be trimmed when highlighting changes between files."
 msgstr ""
-"Om true kommer tomma rader att tas bort när ändringar markeras mellan filer."
 
 #: data/org.gnome.meld.gschema.xml:154
 msgid "Use the system default editor"
-msgstr "Använd systemets standardredigerare"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:155
 msgid ""
 "If false, custom-editor-command will be used instead of the system editor "
 "when opening files externally."
 msgstr ""
-"Om false kommer den anpassade redigeraren att användas istället för "
-"systemredigeraren när filer öppnas externt."
 
 #: data/org.gnome.meld.gschema.xml:159
 msgid "The custom editor launch command"
-msgstr "Kommandot för att starta anpassad redigerare"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:160
 msgid ""
 "The command used to launch a custom editor. Some limited templating is "
 "supported here; at the moment '{file}' and '{line}' are recognised tokens."
 msgstr ""
-"Kommandot för att starta en anpassad redigerare. Begränsat mallstöd här; för "
-"tillfället är ”{file}” och ”{line}” igenkända informationsbärare."
 
 #: data/org.gnome.meld.gschema.xml:166
 msgid "Columns to display"
-msgstr "Kolumner att visa"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:167
 msgid ""
 "List of column names in folder comparison and whether they should be "
 "displayed."
-msgstr "Lista av kolumnnamn vid mappjämförelse och huruvida de ska visas."
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:171 meld/resources/ui/preferences.ui:951
 msgid "Ignore symbolic links"
-msgstr "Ignorera symboliska länkar"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:172
 msgid ""
 "If true, folder comparisons do not follow symbolic links when traversing the "
 "folder tree."
 msgstr ""
-"Om true följer inte mappjämförelser symboliska länkar när mappträdet "
-"genomsöks."
 
 #: data/org.gnome.meld.gschema.xml:176
 msgid "Use shallow comparison"
-msgstr "Använd ytlig jämförelse"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:177
 msgid ""
@@ -304,12 +264,10 @@ msgid ""
 "considering files to be identical if their size and mtime match, and "
 "different otherwise."
 msgstr ""
-"Om true sker mappjämförelser endast baserat på storlek och mtime och bedömer "
-"filerna identiska om deras storlek och mtime matchar, annars inte."
 
 #: data/org.gnome.meld.gschema.xml:181
 msgid "File timestamp resolution"
-msgstr "Tidsstämpelupplösning på filen"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:182
 msgid ""
@@ -318,14 +276,10 @@ msgid ""
 "is useful when comparing files between filesystems with different timestamp "
 "resolution."
 msgstr ""
-"När jämförelser baserade på mtime sker så är detta minsta skillnaden i "
-"nanosekunder mellan två filer innan de anses ha olika mtime. Det är "
-"användbart när filer jämförs på olika filsystem med olika "
-"tidsstämpelupplösningar."
 
 #: data/org.gnome.meld.gschema.xml:186 meld/resources/ui/preferences.ui:852
 msgid "Apply text filters during folder comparisons"
-msgstr "Verkställ textfilter vid mappjämförelser"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:187
 msgid ""
@@ -333,47 +287,38 @@ msgid ""
 "text filters and the blank line trimming option, and ignore newline "
 "differences."
 msgstr ""
-"Om true kommer mappjämförelser som jämför filinnehåll också att verkställa "
-"aktiva textfilter och alternativet att trimma tomma rader samt ignorera "
-"nyradsskillnader."
 
 #: data/org.gnome.meld.gschema.xml:191
 msgid "File status filters"
-msgstr "Filstatusfilter"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:192
 msgid "List of statuses used to filter visible files in folder comparison."
 msgstr ""
-"Lista över statusar använda till att filtrera synliga filer vid "
-"mappjämförelse."
 
 #: data/org.gnome.meld.gschema.xml:198
 msgid "Show the version control console output"
-msgstr "Visa versionshanterarens konsolutmatning"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:199
 msgid ""
 "If true, a console output section will be shown in version control views, "
 "showing the commands run for version control operations."
 msgstr ""
-"Om true kommer en konsolutmatning att visas i versionshanteringsvyer, "
-"visandes de kommandon som körs vid versionshanteringsåtgärder."
 
 #: data/org.gnome.meld.gschema.xml:203
 msgid "Version control pane position"
-msgstr "Position för versionshanteringspanelen"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:204
 msgid ""
 "This is the height of the main version control tree when the console pane is "
 "shown."
 msgstr ""
-"Detta är höjden på huvudträdet för versionshanteringen när konsolpanelen "
-"visas."
 
 #: data/org.gnome.meld.gschema.xml:208
 msgid "Present version comparisons as left-local/right-remote"
-msgstr "Visa versionsjämförelser som vänster-lokal/höger-fjärr"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:209
 msgid ""
@@ -381,14 +326,10 @@ msgid ""
 "remote scheme to determine what order to present files in panes. Otherwise, "
 "a left-is-theirs, right-is-mine scheme is used."
 msgstr ""
-"Om true kommer jämförelser med versionshantering att använda ett vänster-är-"
-"lokal-, höger-är-fjärr-schema för att bestämma i vilken ordning filerna ska "
-"presenteras i paneler. Annars används ett vänster-är-deras-, höger-är-mitt-"
-"schema."
 
 #: data/org.gnome.meld.gschema.xml:213
 msgid "Order for files in three-way version control merge comparisons"
-msgstr "Sortering för filer i trevägsjämförelser med versionshantering"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:214
 msgid ""
@@ -396,74 +337,59 @@ msgid ""
 "preference only affects three-way comparisons launched from the version "
 "control view, so is used solely for merges/conflict resolution within Meld."
 msgstr ""
-"Val för filsortering är fjärr/sammanfogad/lokal och lokal/sammanfogad/fjärr. "
-"Denna inställning påverkar bara trevägsjämförelser startade från "
-"versionshanteringsvyn, och används endast för sammanfogning/konfliktlösning "
-"i Meld."
 
 #: data/org.gnome.meld.gschema.xml:218
 msgid "Show margin in commit message editor"
-msgstr "Visa marginal i redigeraren för incheckningsmeddelanden"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:219
 msgid ""
 "If true, a guide will be displayed to show what column the margin is at in "
 "the version control commit message editor."
 msgstr ""
-"Om true så visas en guide för marginalens kolumn i "
-"versionshanteringsredigeraren för incheckningsmeddelanden."
 
 #: data/org.gnome.meld.gschema.xml:223
 msgid "Margin column in commit message editor"
-msgstr "Marginalkolumn i redigeraren för incheckningsmeddelanden"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:224
 msgid ""
 "The column at which to show the margin in the version control commit message "
 "editor."
 msgstr ""
-"Kolumnen i vilken marginalen ska visas i versionshanteringsredigeraren för "
-"incheckningsmeddelanden."
 
 #: data/org.gnome.meld.gschema.xml:228
 msgid "Automatically hard-wrap commit messages"
-msgstr "Automatisk radbrytning av incheckningsmeddelanden"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:229
 msgid ""
 "If true, the version control commit message editor will hard-wrap (i.e., "
 "insert line breaks) at the commit margin before commit."
 msgstr ""
-"Om true kommer versionshanteringsredigeraren för incheckningsmeddelanden att "
-"radbrytas (d.v.s. infoga radbrytning) vid incheckningsmarginalen före "
-"incheckning."
 
 #: data/org.gnome.meld.gschema.xml:233
 msgid "Version control status filters"
-msgstr "Statusfilter för versionshantering"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:234
 msgid ""
 "List of statuses used to filter visible files in version control comparison."
 msgstr ""
-"Statuslista använd för att filtrera synliga filer vid "
-"versionshanteringsjämförelse."
 
 #: data/org.gnome.meld.gschema.xml:248
 msgid "Filename-based filters"
-msgstr "Filnamnsbaserade filter"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:249
 msgid ""
 "List of predefined filename-based filters that, if active, will remove "
 "matching files from a folder comparison."
 msgstr ""
-"Lista över fördefinierade filnamnsbaserade filter som, om aktiva, kommer att "
-"ta bort matchande filer vid en mappjämförelse."
 
 #: data/org.gnome.meld.gschema.xml:263
 msgid "Text-based filters"
-msgstr "Textbaserade filter"
+msgstr ""
 
 #: data/org.gnome.meld.gschema.xml:264
 msgid ""
@@ -471,657 +397,644 @@ msgid ""
 "text from being used in a file comparison. The text will still be displayed, "
 "but won’t contribute to the comparison itself."
 msgstr ""
-"Lista över fördefinierade textbaserade regex-filter som, om aktiva, kommer "
-"att ta bort text från att användas vid filjämförelse. Texten kommer "
-"fortfarande att visas, men inte bidra till själva jämförelsen."
 
 #: data/styles/meld-base.style-scheme.xml.in:1
 msgid "Classic (Meld)"
-msgstr "Klassiskt (Meld)"
+msgstr ""
 
 #: data/styles/meld-base.style-scheme.xml.in:3
 msgid "Base color scheme for Meld highlighting"
-msgstr "Basfärgschema att använda för syntaxmarkering"
+msgstr ""
 
 #: data/styles/meld-dark.style-scheme.xml.in:1
 msgid "Meld dark scheme"
-msgstr "Meld mörkt schema"
+msgstr ""
 
 #: data/styles/meld-dark.style-scheme.xml.in:3
 msgid "Dark color scheme for Meld highlighting"
-msgstr "Mörkt färgschema att använda för syntaxmarkering"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Allmänt"
+msgstr "მთავარი"
 
 #: meld/resources/gtk/help-overlay.ui:19
 msgctxt "shortcut window"
 msgid "New comparison"
-msgstr "Ny jämförelse"
+msgstr "ახალი შედარება"
 
 #: meld/resources/gtk/help-overlay.ui:26
 msgctxt "shortcut window"
 msgid "Close a comparison"
-msgstr "Stäng en jämförelse"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:33
 msgctxt "shortcut window"
 msgid "Quit Meld"
-msgstr "Avsluta Meld"
+msgstr "Meld-დან გასვლა"
 
 #: meld/resources/gtk/help-overlay.ui:40
 msgctxt "shortcut window"
 msgid "Stop the current action"
-msgstr "Stoppa den aktuella åtgärden"
+msgstr "მიმდინარე ქმედების გაჩერება"
 
 #: meld/resources/gtk/help-overlay.ui:47
 msgctxt "shortcut window"
 msgid "Refresh comparison"
-msgstr "Uppdatera jämförelse"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:54
 msgctxt "shortcut window"
 msgid "Open externally"
-msgstr "Öppna externt"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:61
 msgctxt "shortcut window"
 msgid "Fullscreen"
-msgstr "Helskärm"
+msgstr "მთელ ეკრანზე"
 
 #: meld/resources/gtk/help-overlay.ui:68
 msgctxt "shortcut window"
 msgid "Swap left and right panes"
-msgstr "Byt plats på vänster- och högerpanelen"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:77
 msgctxt "shortcut window"
 msgid "Panes"
-msgstr "Paneler"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:82
 msgctxt "shortcut window"
 msgid "Previous comparison pane"
-msgstr "Föregående jämförelsepanel"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:89
 msgctxt "shortcut window"
 msgid "Next comparison pane"
-msgstr "Nästa jämförelsepanel"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:98
 msgctxt "shortcut window"
 msgid "Changes"
-msgstr "Ändringar"
+msgstr "ცვლილებები"
 
 #: meld/resources/gtk/help-overlay.ui:103
 msgctxt "shortcut window"
 msgid "Go to previous change"
-msgstr "Gå till föregående ändring"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:110
 msgctxt "shortcut window"
 msgid "Go to next change"
-msgstr "Gå till nästa ändring"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:119
 msgctxt "shortcut window"
 msgid "Tabs"
-msgstr "Flikar"
+msgstr "დაფები"
 
 #: meld/resources/gtk/help-overlay.ui:124
 msgctxt "shortcut window"
 msgid "Go to previous tab"
-msgstr "Gå till föregående flik"
+msgstr "წინა ჩანართზე გადასვლა"
 
 #: meld/resources/gtk/help-overlay.ui:131
 msgctxt "shortcut window"
 msgid "Go to next tab"
-msgstr "Gå till nästa flik"
+msgstr "შემდეგი ჩანართზე გადასვლა"
 
 #: meld/resources/gtk/help-overlay.ui:138
 msgctxt "shortcut window"
 msgid "Switch to tab"
-msgstr "Växla till flik"
+msgstr "ჩანართზე გადართვა"
 
 #: meld/resources/gtk/help-overlay.ui:145
 msgctxt "shortcut window"
 msgid "Move tab left"
-msgstr "Flytta flik åt vänster"
+msgstr "ჩანართის _მარცხნივ გადატანა"
 
 #: meld/resources/gtk/help-overlay.ui:152
 msgctxt "shortcut window"
 msgid "Move tab right"
-msgstr "Flytta flik åt höger"
+msgstr "ჩანართის მა_რჯვნივ გადატანა"
 
 #: meld/resources/gtk/help-overlay.ui:161
 msgctxt "shortcut window"
 msgid "Editing"
-msgstr "Redigering"
+msgstr "ჩასწორება"
 
 #: meld/resources/gtk/help-overlay.ui:166
 msgctxt "shortcut window"
 msgid "Undo"
-msgstr "Ångra"
+msgstr "ბრძანების გაუქმება"
 
 #: meld/resources/gtk/help-overlay.ui:173
 msgctxt "shortcut window"
 msgid "Redo"
-msgstr "Gör om"
+msgstr "თავიდან"
 
 #: meld/resources/gtk/help-overlay.ui:180
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr "Klipp ut"
+msgstr "ამოჭრა"
 
 #: meld/resources/gtk/help-overlay.ui:187
 msgctxt "shortcut window"
 msgid "Copy"
-msgstr "Kopiera"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:194
 msgctxt "shortcut window"
 msgid "Paste"
-msgstr "Klistra in"
+msgstr "ჩასმა"
 
 #: meld/resources/gtk/help-overlay.ui:201
 msgctxt "shortcut window"
 msgid "Find"
-msgstr "Sök"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:208
 msgctxt "shortcut window"
 msgid "Find Next"
-msgstr "Sök nästa"
+msgstr "მომდევნოს მოძებნა"
 
 #: meld/resources/gtk/help-overlay.ui:215
 msgctxt "shortcut window"
 msgid "Find Previous"
-msgstr "Sök föregående"
+msgstr "წინანდელის ძიება"
 
 #: meld/resources/gtk/help-overlay.ui:222
 msgctxt "shortcut window"
 msgid "Replace"
-msgstr "Ersätt"
+msgstr "გამოცვლა"
 
 #: meld/resources/gtk/help-overlay.ui:231
 msgctxt "shortcut window"
 msgid "File comparison"
-msgstr "Filjämförelse"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:236
 msgctxt "shortcut window"
 msgid "Save current file"
-msgstr "Spara den aktuella filen"
+msgstr "მიმდინარე ფაილის შენახვა"
 
 #: meld/resources/gtk/help-overlay.ui:243
 msgctxt "shortcut window"
 msgid "Save current file to new path"
-msgstr "Spara den aktuella filen till ny sökväg"
+msgstr "მიმდინარე ფაილის ახალ ბილიკზე შენახვა"
 
 #: meld/resources/gtk/help-overlay.ui:250
 msgctxt "shortcut window"
 msgid "Save all files in comparison"
-msgstr "Spara alla filer i jämförelse"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:257
 msgctxt "shortcut window"
 msgid "Previous conflict"
-msgstr "Föregående konflikt"
+msgstr "წინა კონფლიქტი"
 
 #: meld/resources/gtk/help-overlay.ui:264
 msgctxt "shortcut window"
 msgid "Next conflict"
-msgstr "Nästa konflikt"
+msgstr "შემდეგი კონფლიქტი"
 
 #: meld/resources/gtk/help-overlay.ui:271
 msgctxt "shortcut window"
 msgid "Push change to left"
-msgstr "Tryck över ändring till vänster"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:278
 msgctxt "shortcut window"
 msgid "Push change to right"
-msgstr "Tryck över ändring till höger"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:285
 msgctxt "shortcut window"
 msgid "Pull change from left"
-msgstr "Dra ändring från vänster"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:292
 msgctxt "shortcut window"
 msgid "Pull change from right"
-msgstr "Dra ändring från höger"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:299
 msgctxt "shortcut window"
 msgid "Copy change above left"
-msgstr "Kopiera ändringar ovanför vänster"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:306
 msgctxt "shortcut window"
 msgid "Copy change below left"
-msgstr "Kopiera ändringar under vänster"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:313
 msgctxt "shortcut window"
 msgid "Copy change above right"
-msgstr "Kopiera ändringar ovanför höger"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:320
 msgctxt "shortcut window"
 msgid "Copy change below right"
-msgstr "Kopiera ändringar under höger"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:327
 #: meld/resources/gtk/help-overlay.ui:355
 msgctxt "shortcut window"
 msgid "Delete change"
-msgstr "Ta bort ändring"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:336
 msgctxt "shortcut window"
 msgid "Folder comparison"
-msgstr "Mappjämförelse"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:341
 msgctxt "shortcut window"
 msgid "Copy to left"
-msgstr "Kopiera till vänster"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:348
 msgctxt "shortcut window"
 msgid "Copy to right"
-msgstr "Kopiera till höger"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:364
 msgctxt "shortcut window"
 msgid "Version control comparison"
-msgstr "Versionshanterad jämförelse"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:369
 msgctxt "shortcut window"
 msgid "Commit to version control"
-msgstr "Checka in i versionshanteraren"
+msgstr ""
 
 #: meld/resources/gtk/help-overlay.ui:376
 msgctxt "shortcut window"
 msgid "Show/hide console output"
-msgstr "Visa/dölj konsolutskrift"
+msgstr ""
 
 #: meld/resources/gtk/menus.ui:7
 msgid "Save As…"
-msgstr "Spara som…"
+msgstr "შენახვა, როგორც…"
 
 #: meld/resources/gtk/menus.ui:11
 msgid "Save A_ll"
-msgstr "Spara _alla"
+msgstr "_ყველას შენახვა"
 
 #: meld/resources/gtk/menus.ui:15
 msgid "Revert files…"
-msgstr "Återställ filer…"
+msgstr "ფაილების რევერსი…"
 
 #: meld/resources/gtk/menus.ui:19
 msgid "Open Externally"
-msgstr "Öppna externt"
+msgstr "გარეთ გახსნა"
 
 #: meld/resources/gtk/menus.ui:26
 msgid "Refresh Comparison"
-msgstr "Uppdatera jämförelse"
+msgstr "შედარების განახლება"
 
 #: meld/resources/gtk/menus.ui:33
 msgid "_Find…"
-msgstr "_Sök…"
+msgstr "_მოძებნა…"
 
 #: meld/resources/gtk/menus.ui:37
 msgid "_Replace…"
-msgstr "_Ersätt…"
+msgstr "_ჩანაცვლება…"
 
 #: meld/resources/gtk/menus.ui:43
 msgid "View"
-msgstr "Visa"
+msgstr "ნახვა"
 
 #: meld/resources/gtk/menus.ui:47
 msgid "Fullscreen"
-msgstr "Helskärm"
+msgstr "მთელ ეკრანზე"
 
 #: meld/resources/gtk/menus.ui:52
 msgid "Overview Map"
-msgstr "Översiktskarta"
+msgstr "მიმოხილვის რუკა"
 
 #: meld/resources/gtk/menus.ui:56
 msgid "Version control console"
-msgstr "Versionshanteringskonsol"
+msgstr "ვერსიის კონტროლის კონსოლი"
 
 #: meld/resources/gtk/menus.ui:60
 msgid "Lock scrolling"
-msgstr "Lås rullning"
+msgstr "გადახვევის დაბლოკვა"
 
 #: meld/resources/gtk/menus.ui:67
 msgid "Swap left and right panes"
-msgstr "Byt plats på vänster- och högerpanelen"
+msgstr ""
 
 #: meld/resources/gtk/menus.ui:73
 msgid "Comparison"
-msgstr "Jämförelse"
+msgstr "შედარება"
 
 #: meld/resources/gtk/menus.ui:75
 msgid "Stop"
-msgstr "Stoppa"
+msgstr "გაჩერება"
 
 #: meld/resources/gtk/menus.ui:81
 msgid "Merge All from Left"
-msgstr "Sammanfoga allt från vänster"
+msgstr ""
 
 #: meld/resources/gtk/menus.ui:85
 msgid "Merge All from Right"
-msgstr "Sammanfoga allt från höger"
+msgstr ""
 
 #: meld/resources/gtk/menus.ui:89
 msgid "Merge All"
-msgstr "Sammanfoga alla"
+msgstr "ყველას შერწყმა"
 
 #: meld/resources/gtk/menus.ui:96
 msgid "Format as Patch…"
-msgstr "Formatera som programfix…"
+msgstr ""
 
 #: meld/resources/gtk/menus.ui:105
 msgid "_Preferences"
-msgstr "Inställ_ningar"
+msgstr "გამართვა"
 
 #: meld/resources/gtk/menus.ui:109
 msgid "Keyboard Shortcuts"
-msgstr "Tangentbordsgenvägar"
+msgstr "კლავიატურის მალსახმობები"
 
 #: meld/resources/gtk/menus.ui:113
 msgid "_Help"
-msgstr "_Hjälp"
+msgstr "_დახმარება"
 
 #: meld/resources/gtk/menus.ui:118
 msgid "_About Meld"
-msgstr "_Om Meld"
+msgstr "Meld-ის შესახებ"
 
 #: meld/resources/gtk/menus.ui:131
 msgid "File status"
-msgstr "Filstatus"
+msgstr "ფაილის სტატუსი"
 
 #: meld/resources/gtk/menus.ui:133
 msgid "Same"
-msgstr "Samma"
+msgstr "იგივე"
 
 #: meld/resources/gtk/menus.ui:137
 msgid "New"
-msgstr "Nya"
+msgstr "ახალი"
 
 #: meld/resources/gtk/menus.ui:141 meld/resources/gtk/menus.ui:164
 #: meld/vc/_vc.py:77
 msgid "Modified"
-msgstr "Ändrade"
+msgstr "შეცვლილია"
 
 #: meld/resources/gtk/menus.ui:151
 msgid "Ignore filename case"
-msgstr "Ignorera skiftlägeskänslighet för filnamn"
+msgstr ""
 
 #: meld/resources/gtk/menus.ui:155
 msgid "Normalize Unicode paths"
-msgstr "Normalisera Unicode-sökvägar"
+msgstr ""
 
 #: meld/resources/gtk/menus.ui:168
 msgid "Normal"
-msgstr "Normala"
+msgstr "ჩვეულებრივი"
 
 #: meld/resources/gtk/menus.ui:172 meld/vc/_vc.py:71
 msgid "Unversioned"
-msgstr "Oversionerade"
+msgstr ""
 
 #: meld/resources/gtk/menus.ui:176 meld/vc/_vc.py:70
 msgid "Ignored"
-msgstr "Ignorerade"
+msgstr "იგნორირებულია"
 
 #: meld/resources/gtk/menus.ui:183
 msgid "Flatten folders"
-msgstr "Platta till mappar"
+msgstr ""
 
 #: meld/resources/ui/about-dialog.ui:8
 msgid ""
 "Copyright © 2002-2009 Stephen Kennedy\n"
 "Copyright © 2009-2022 Kai Willadsen"
 msgstr ""
-"Copyright © 2002-2009 Stephen Kennedy\n"
-"Copyright © 2009-2022 Kai Willadsen"
 
 #: meld/resources/ui/about-dialog.ui:14
 msgid "translator-credits"
-msgstr ""
-"Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Josef Andersson <josef.andersson@fripost.org>\n"
-"Daniel Nylander <po@danielnylander.se>\n"
-"Christian Rose\n"
-"Luna Jernberg <droidbittin@gmail.com>\n"
-"\n"
-"Skicka synpunkter på översättningen till\n"
-"<tp-sv@listor.tp-sv.se>."
+msgstr "ეკატერინე პაპავა"
 
 #: meld/resources/ui/appwindow.ui:30
 msgid "Start a new comparison"
-msgstr "Starta en ny jämförelse"
+msgstr ""
 
 #: meld/resources/ui/appwindow.ui:46
 msgid "Open a recent comparison"
-msgstr "Öppna en tidigare jämförelse"
+msgstr ""
 
 #: meld/resources/ui/appwindow.ui:74
 msgid "Go to the previous change"
-msgstr "Gå till föregående ändring"
+msgstr ""
 
 #: meld/resources/ui/appwindow.ui:94
 msgid "Go to the next change"
-msgstr "Gå till nästa ändring"
+msgstr ""
 
 #: meld/resources/ui/appwindow.ui:124
 msgid "Go to the previous conflict"
-msgstr "Gå till föregående konflikt"
+msgstr ""
 
 #: meld/resources/ui/appwindow.ui:144
 msgid "Go to the next conflict"
-msgstr "Gå till nästa konflikt"
+msgstr ""
 
 #: meld/resources/ui/appwindow.ui:193
 msgid "Version Filters"
-msgstr "Versionsfilter"
+msgstr "ვერსიის ფილტრები"
 
 #: meld/resources/ui/appwindow.ui:208 meld/resources/ui/preferences.ui:1472
 msgid "File Filters"
-msgstr "Filfilter"
+msgstr "ფაილის ფილტრები"
 
 #: meld/resources/ui/appwindow.ui:223 meld/resources/ui/preferences.ui:1657
 msgid "Text Filters"
-msgstr "Textfilter"
+msgstr "ტექსტის ფილტრები"
 
 #: meld/resources/ui/column-list.ui:37 meld/resources/ui/filter-list.ui:40
 msgid "Active"
-msgstr "Aktiv"
+msgstr "აქტიური"
 
 #: meld/resources/ui/column-list.ui:50
 msgid "Column Name"
-msgstr "Kolumnnamn"
+msgstr "სვეტისსახელი"
 
 #: meld/resources/ui/column-list.ui:83 meld/resources/ui/filter-list.ui:128
 #: meld/resources/ui/vcview-menus.ui:22 meld/vcview.py:745
 msgid "_Remove"
-msgstr "_Ta bort"
+msgstr "მოცილება"
 
 #: meld/resources/ui/column-list.ui:96 meld/resources/ui/filter-list.ui:152
 msgid "Move item up"
-msgstr "Flytta objektet uppåt"
+msgstr "ჩანაწერის აწევა"
 
 #: meld/resources/ui/column-list.ui:98 meld/resources/ui/filter-list.ui:154
 msgid "Move _Up"
-msgstr "Flytta _uppåt"
+msgstr "_აწევა"
 
 #: meld/resources/ui/column-list.ui:112 meld/resources/ui/filter-list.ui:168
 msgid "Move item down"
-msgstr "Flytta objektet nedåt"
+msgstr "ჩანაწერის ჩამოწევა"
 
 #: meld/resources/ui/column-list.ui:114 meld/resources/ui/filter-list.ui:170
 msgid "Move _Down"
-msgstr "Flytta _nedåt"
+msgstr "_ჩამოწევა"
 
 #: meld/resources/ui/commit-dialog.ui:8
 msgid "Commit"
-msgstr "Checka in"
+msgstr "გადაცემა"
 
 #: meld/resources/ui/commit-dialog.ui:36
 msgid "Commit Files"
-msgstr "Checka in filer"
+msgstr "ფაილების გადაცემა"
 
 #: meld/resources/ui/commit-dialog.ui:117
 msgid "Log Message"
-msgstr "Loggmeddelande"
+msgstr "ჟურნალის ჩანაწერი"
 
 #: meld/resources/ui/commit-dialog.ui:181
 msgid "Previous logs:"
-msgstr "Föregående loggar:"
+msgstr "წინა ჟურნალი:"
 
 #: meld/resources/ui/commit-dialog.ui:259
 msgid "Co_mmit"
-msgstr "Che_cka in"
+msgstr "_გადაცემა"
 
 #: meld/resources/ui/dirdiff-actions.ui:20
 msgid "Copy to left"
-msgstr "Kopiera till vänster"
+msgstr "მარცხნივ კოპირება"
 
 #: meld/resources/ui/dirdiff-actions.ui:42
 msgid "Copy to right"
-msgstr "Kopiera till höger"
+msgstr "მარჯვნივ კოპირება"
 
 #: meld/resources/ui/dirdiff-actions.ui:66
 msgid "Delete selected"
-msgstr "Ta bort markerade"
+msgstr "მონიშნულის წაშლა"
 
 #: meld/resources/ui/dirdiff-menus.ui:7
 msgid "_Compare selected files"
-msgstr "_Jämför markerade filer"
+msgstr ""
 
 #: meld/resources/ui/dirdiff-menus.ui:14
 msgid "_Mark selected file"
-msgstr "_Märk markerad fil"
+msgstr ""
 
 #: meld/resources/ui/dirdiff-menus.ui:18
 msgid "Compare _with marked file"
-msgstr "Jäm_för med märkt fil"
+msgstr ""
 
 #: meld/resources/ui/dirdiff-menus.ui:25
 msgid "Copy to _left"
-msgstr "Kopiera till _vänster"
+msgstr "_მარცხნივ კოპირება"
 
 #: meld/resources/ui/dirdiff-menus.ui:29
 msgid "Copy to _right"
-msgstr "Kopiera till _höger"
+msgstr "_მარჯვნივ კოპირება"
 
 #: meld/resources/ui/dirdiff-menus.ui:33
 msgid "_Delete selected"
-msgstr "_Ta bort markerade"
+msgstr "მონიშნულის _წაშლა"
 
 #: meld/resources/ui/dirdiff-menus.ui:40
 msgid "Collapse Recursively"
-msgstr "Fäll ihop rekursivt"
+msgstr "რეკურსიულად ჩაკეცვა"
 
 #: meld/resources/ui/dirdiff-menus.ui:44
 msgid "Expand Recursively"
-msgstr "Expandera rekursivt"
+msgstr "რეკურსიულად ამოკეცვა"
 
 #: meld/resources/ui/dirdiff-menus.ui:51
 msgid "_Open Externally"
-msgstr "Ö_ppna externt"
+msgstr "_გარეთ გახსნა"
 
 #: meld/resources/ui/dirdiff-menus.ui:55
 msgid "_Copy File Paths"
-msgstr "_Kopiera filsökvägar"
+msgstr "ფაილის ბილიკების კოპირება"
 
 #: meld/resources/ui/dirdiff.ui:35 meld/resources/ui/dirdiff.ui:76
 #: meld/resources/ui/dirdiff.ui:117
 msgid "Select folder to open in this pane"
-msgstr "Välj mapp att öppna i denna panel"
+msgstr ""
 
 #: meld/resources/ui/dirdiff.ui:43
 msgid "Folder 1"
-msgstr "Mapp 1"
+msgstr "საქაღალდე 1"
 
 #: meld/resources/ui/dirdiff.ui:84
 msgid "Folder 2"
-msgstr "Mapp 2"
+msgstr "საქაღალდე 2"
 
 #: meld/resources/ui/dirdiff.ui:125
 msgid "Folder 3"
-msgstr "Mapp 3"
+msgstr "საქაღალდე 3"
 
 #: meld/resources/ui/encoding-selector.ui:31
 msgid "Search text encoding…"
-msgstr "Sök textkodning…"
+msgstr ""
 
 #: meld/resources/ui/filediff-actions.ui:20
 msgid "Push current change to the left"
-msgstr "Tryck över aktuell ändring till vänster"
+msgstr ""
 
 #: meld/resources/ui/filediff-actions.ui:42
 msgid "Push current change to the right"
-msgstr "Tryck över aktuell ändring till höger"
+msgstr ""
 
 #: meld/resources/ui/filediff-actions.ui:65
 msgid "Copy chunks"
-msgstr "Kopiera bitar"
+msgstr ""
 
 #: meld/resources/ui/filediff-actions.ui:87
 msgid "Delete change"
-msgstr "Ta bort ändring"
+msgstr ""
 
 #: meld/resources/ui/filediff-menus.ui:7
 msgid "Copy change above the left chunk"
-msgstr "Kopiera ändringar ovanför vänstra stycket"
+msgstr ""
 
 #: meld/resources/ui/filediff-menus.ui:11
 msgid "Copy change below the left chunk"
-msgstr "Kopiera ändringar under vänstra stycket"
+msgstr ""
 
 #: meld/resources/ui/filediff-menus.ui:15
 msgid "Copy change above the right chunk"
-msgstr "Kopiera ändringar ovanför högra stycket"
+msgstr ""
 
 #: meld/resources/ui/filediff-menus.ui:19
 msgid "Copy change below the right chunk"
-msgstr "Kopiera ändringar under högra stycket"
+msgstr ""
 
 #: meld/resources/ui/filediff-menus.ui:28
 msgid "_Undo"
-msgstr "Å_ngra"
+msgstr "გა_უქმება"
 
 #: meld/resources/ui/filediff-menus.ui:32
 msgid "_Redo"
-msgstr "Gör _om"
+msgstr ""
 
 #: meld/resources/ui/filediff-menus.ui:39
 msgid "Cu_t"
-msgstr "Klipp u_t"
+msgstr "ამო_ჭრა"
 
 #: meld/resources/ui/filediff-menus.ui:43
 msgid "_Copy"
-msgstr "_Kopiera"
+msgstr ""
 
 #: meld/resources/ui/filediff-menus.ui:47
 msgid "_Paste"
-msgstr "K_listra in"
+msgstr "_ჩასმა"
 
 #: meld/resources/ui/filediff-menus.ui:54
 msgid "Open Containing Folder"
-msgstr "Öppna innehållande mapp"
+msgstr "შემცველი საქაღალდის გახსნა"
 
 #: meld/resources/ui/filediff-menus.ui:58
 msgid "Copy Full Path"
-msgstr "Kopiera fullständig sökväg"
+msgstr ""
 
 #: meld/resources/ui/filediff.ui:31 meld/resources/ui/filediff.ui:100
 #: meld/resources/ui/filediff.ui:169
@@ -1129,337 +1042,333 @@ msgid ""
 "This file can not be written to. You may click here to unlock this file and "
 "make changes anyway, but these changes must be saved to a new file."
 msgstr ""
-"Kan inte skriva till denna fil. Du kan klicka här för att låsa upp denna fil "
-"och göra ändringar ändå, men dessa ändringar måste sparas till en ny fil."
 
 #: meld/resources/ui/filediff.ui:45 meld/resources/ui/filediff.ui:114
 #: meld/resources/ui/filediff.ui:183
 msgid "Save file in this pane"
-msgstr "Spara fil i denna panel"
+msgstr ""
 
 #: meld/resources/ui/filediff.ui:71 meld/resources/ui/filediff.ui:140
 #: meld/resources/ui/filediff.ui:209
 msgid "Open file in this pane"
-msgstr "Öppna fil i denna panel"
+msgstr ""
 
 #: meld/resources/ui/filediff.ui:79
 msgid "File 3"
-msgstr "Fil tre"
+msgstr "ფაილი 3"
 
 #: meld/resources/ui/filediff.ui:148
 msgid "File 2"
-msgstr "Fil två"
+msgstr "ფაილი 2"
 
 #: meld/resources/ui/filediff.ui:217 meld/resources/ui/vcview.ui:148
 msgid "File 1"
-msgstr "Fil ett"
+msgstr "ფაილი 1"
 
 #. Create icon and filename CellRenderer
 #: meld/resources/ui/filter-list.ui:54 meld/resources/ui/vcview.ui:217
 #: meld/dirdiff.py:603
 msgid "Name"
-msgstr "Namn"
+msgstr "სახელი"
 
 #: meld/resources/ui/filter-list.ui:68
 msgid "Pattern"
-msgstr "Mönster"
+msgstr "შაბლონი"
 
 #: meld/resources/ui/filter-list.ui:110
 msgid "Add new filter"
-msgstr "Lägg till nytt filter"
+msgstr "ახალი ფილტრის დამატება"
 
 #: meld/resources/ui/filter-list.ui:112 meld/resources/ui/vcview-menus.ui:18
 msgid "_Add"
-msgstr "_Lägg till"
+msgstr "_დამატება"
 
 #: meld/resources/ui/filter-list.ui:126
 msgid "Remove selected filter"
-msgstr "Ta bort markerat filter"
+msgstr ""
 
 #: meld/resources/ui/findbar.ui:103
 msgid "_Match case"
-msgstr "_Skiftlägeskänslig"
+msgstr "_დიდი და პატარა ასოების სხვაობა"
 
 #: meld/resources/ui/findbar.ui:119
 msgid "Who_le word"
-msgstr "He_la ord"
+msgstr "_სრული სიტყვა"
 
 #: meld/resources/ui/findbar.ui:135
 msgid "Regular e_xpression"
-msgstr "Reguljärt _uttryck"
+msgstr "_რეგულარული გამოსახულება"
 
 #: meld/resources/ui/findbar.ui:175
 msgid "Wrapped"
-msgstr "Radbruten"
+msgstr "_გადატანილი"
 
 #: meld/resources/ui/findbar.ui:193
 msgid "Replace _All"
-msgstr "Ersätt _alla"
+msgstr "ყველ_აფრის ჩანაცვლება"
 
 #: meld/resources/ui/findbar.ui:208 meld/dirdiff.py:1231 meld/iohelpers.py:117
 msgid "_Replace"
-msgstr "_Ersätt"
+msgstr "_გამოცვლა"
 
 #: meld/resources/ui/findbar.ui:226
 msgid "Switch between Find and Find-and-Replace"
-msgstr "Växla mellan Sök och Sök-och-ersätt"
+msgstr ""
 
 #: meld/resources/ui/language-selector.ui:31
 msgid "Search highlight mode…"
-msgstr "Sök färgmarkeringsläge…"
+msgstr "გამოკვე_თის რეჟიმში ძებნა…"
 
 #: meld/resources/ui/new-diff-tab.ui:20 meld/meldwindow.py:342
 #: meld/newdifftab.py:49
 msgid "New comparison"
-msgstr "Ny jämförelse"
+msgstr "ახალი შედარება"
 
 #: meld/resources/ui/new-diff-tab.ui:72
 msgid "File"
-msgstr "Fil"
+msgstr "ფაილი"
 
 #: meld/resources/ui/new-diff-tab.ui:121
 msgid "Folder"
-msgstr "Mapp"
+msgstr "საქაღალდე"
 
 #: meld/resources/ui/new-diff-tab.ui:170
 msgid "Version control"
-msgstr "Versionshantering"
+msgstr "ვერსიის კონტროლი"
 
 #: meld/resources/ui/new-diff-tab.ui:236 meld/resources/ui/new-diff-tab.ui:357
 msgid "_3-way comparison"
-msgstr "_Trevägsjämförelse"
+msgstr ""
 
 #: meld/resources/ui/new-diff-tab.ui:256
 msgid "Select First File"
-msgstr "Välj första filen"
+msgstr ""
 
 #: meld/resources/ui/new-diff-tab.ui:270
 msgid "Select Second File"
-msgstr "Välj andra filen"
+msgstr ""
 
 #: meld/resources/ui/new-diff-tab.ui:285
 msgid "Select Third File"
-msgstr "Välj tredje filen"
+msgstr ""
 
 #: meld/resources/ui/new-diff-tab.ui:321
 msgid "Select First Folder"
-msgstr "Välj första mappen"
+msgstr ""
 
 #: meld/resources/ui/new-diff-tab.ui:334
 msgid "Select Second Folder"
-msgstr "Välj andra mappen"
+msgstr ""
 
 #: meld/resources/ui/new-diff-tab.ui:348
 msgid "Select Third Folder"
-msgstr "Välj tredje filen"
+msgstr ""
 
 #: meld/resources/ui/new-diff-tab.ui:399
 msgid "Select A Version-Controlled Folder"
-msgstr "Välj en versionshanterad mapp"
+msgstr ""
 
 #: meld/resources/ui/new-diff-tab.ui:448
 msgid "_Blank comparison"
-msgstr "_Tom jämförelse"
+msgstr ""
 
 #: meld/resources/ui/new-diff-tab.ui:466
 msgid "C_ompare"
-msgstr "_Jämför"
+msgstr "_შედარება"
 
 #: meld/resources/ui/notebook-label.ui:24
 msgid "Close Tab"
-msgstr "Stäng flik"
+msgstr "ჩანართის დახურვა"
 
 #: meld/resources/ui/patch-dialog.ui:9
 msgid "Format as Patch"
-msgstr "Formatera som programfix"
+msgstr ""
 
 #: meld/resources/ui/patch-dialog.ui:26
 msgid "Copy to Clipboard"
-msgstr "Kopiera till Urklipp"
+msgstr "გაცვლის ბუფერში კოპირება"
 
 #: meld/resources/ui/patch-dialog.ui:57 meld/patchdialog.py:159
 msgid "Save Patch"
-msgstr "Spara programfix"
+msgstr ""
 
 #: meld/resources/ui/patch-dialog.ui:88
 msgid "Use differences between:"
-msgstr "Använd skillnader mellan:"
+msgstr ""
 
 #: meld/resources/ui/patch-dialog.ui:105
 msgid "Left and middle panes"
-msgstr "Vänster- och mittenpaneler"
+msgstr ""
 
 #: meld/resources/ui/patch-dialog.ui:123
 msgid "Middle and right panes"
-msgstr "Mitten- och högerpaneler"
+msgstr ""
 
 #: meld/resources/ui/patch-dialog.ui:149
 msgid "_Reverse patch direction"
-msgstr "_Omvänd programfixriktning"
+msgstr ""
 
 #: meld/resources/ui/path-label.ui:23
 msgid "Path"
-msgstr "Sökväg"
+msgstr "ბილიკი"
 
 #: meld/resources/ui/path-label.ui:62
 msgid "Copy Path"
-msgstr "Kopiera sökväg"
+msgstr "ბილიკის კოპირება"
 
 #: meld/resources/ui/path-label.ui:78
 msgid "Open Folder"
-msgstr "Öppna mapp"
+msgstr "საქაღალდის გახსნა"
 
 #: meld/resources/ui/preferences.ui:22 meld/resources/ui/preferences.ui:31
 msgid "Preferences"
-msgstr "Inställningar"
+msgstr "მორგება"
 
 #: meld/resources/ui/preferences.ui:75
 msgid "Font"
-msgstr "Typsnitt"
+msgstr "შრიფტი"
 
 #: meld/resources/ui/preferences.ui:112
 msgid "_Use the system fixed width font"
-msgstr "_Använd systemets typsnitt med fast bredd"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:136
 msgid "_Editor font:"
-msgstr "_Typsnitt för redigerare:"
+msgstr ""
 
 #. TRANSLATORS: This is the status bar label for a group of settings,
 #. such as text wrapping, show line numbers, whitespace, etc.
 #: meld/resources/ui/preferences.ui:198 meld/ui/statusbar.py:291
 msgid "Display"
-msgstr "Visa"
+msgstr "ეკრანი"
 
 #: meld/resources/ui/preferences.ui:241
 msgid "_Tab width:"
-msgstr "_Tabulatorbredd:"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:274
 msgid "_Insert spaces instead of tabs"
-msgstr "_Infoga blanksteg istället för tabbar"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:290
 msgid "Enable text _wrapping"
-msgstr "Aktivera text_radbrytning"
+msgstr "ტექსტის _გადატანის ჩართვა"
 
 #: meld/resources/ui/preferences.ui:312
 msgid "Do not _split words over two lines"
-msgstr "Dela inte _ord över två rader"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:333
 msgid "Highlight _current line"
-msgstr "Markera _aktuell rad"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:349
 msgid "Show _line numbers"
-msgstr "Visa _radnummer"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:365
 msgid "Show w_hitespace"
-msgstr "Visa tom_rum"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:381
 msgid "Prefer dark theme"
-msgstr "Föredra mörkt schema"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:397
 msgid "Use s_yntax highlighting"
-msgstr "Använd _syntaxmarkering"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:420
 msgid "Syntax highlighting color scheme:"
-msgstr "Färgschema för syntaxmarkering:"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:485
 msgid "Code Overview"
-msgstr "Kodöversikt"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:522
 msgid "Show overview map"
-msgstr "Visa översiktskarta"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:545
 msgid "Overview map style:"
-msgstr "Stil för översiktskarta:"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:612
 msgid "External Editor"
-msgstr "Extern redigerare"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:648
 msgid "Use _default system editor"
-msgstr "Använd systemets standardred_igerare"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:671
 msgid "Edito_r command:"
-msgstr "Kommando för re_digerare:"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:727
 msgid "Editor"
-msgstr "Redigerare"
+msgstr "რედაქტორი"
 
 #: meld/resources/ui/preferences.ui:748
 msgid "Shallow Comparison"
-msgstr "Ytlig jämförelse"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:784
 msgid "C_ompare files based only on size and timestamp"
-msgstr "J_ämför filer enbart baserat på storlek och tidsstämpel"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:807
 msgid "_Timestamp resolution:"
-msgstr "_Tidsstämpelupplösning:"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:871
 msgid "Note: enabling text filters may make comparing large files much slower"
 msgstr ""
-"Observera: att aktivera textfilter kan göra att jämförelse av stora filer "
-"blir mycket långsammare"
 
 #: meld/resources/ui/preferences.ui:920
 msgid "Symbolic Links"
-msgstr "Symboliska länkar"
+msgstr "სიმბმულები"
 
 #: meld/resources/ui/preferences.ui:988
 msgid "Visible Columns"
-msgstr "Synliga kolumner"
+msgstr "ხილული სვეტები"
 
 #: meld/resources/ui/preferences.ui:1055
 msgid "Folder Comparisons"
-msgstr "Mappjämförelser"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1077
 msgid "Version Comparisons"
-msgstr "Versionsjämförelser"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1120
 msgid "_Order when comparing file revisions:"
-msgstr "_Sortering vid jämförelse av filrevisioner:"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1167
 msgid "Order when _merging files:"
-msgstr "Sortering när filer _sammanfogas:"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1235
 msgid "Commit Messages"
-msgstr "Incheckningsmeddelanden"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1276
 msgid "Show _right margin at:"
-msgstr "Visa _högermarginal vid:"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1317
 msgid "Automatically _break lines at right margin on commit"
-msgstr "_Radbryt automatiskt vid högermarginal under incheckning"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1367
 msgid "Version Control"
-msgstr "Versionshantering"
+msgstr "ვერსიის კონტროლი"
 
 #: meld/resources/ui/preferences.ui:1389
 msgid "Filename filters"
-msgstr "Filnamnsfilter"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1427
 msgid ""
@@ -1467,21 +1376,18 @@ msgid ""
 "directories by name. Each pattern is a list of shell style wildcards "
 "separated by spaces."
 msgstr ""
-"När du jämför kataloger kan du filtrera ut filer och kataloger med hjälp av "
-"deras namn. Varje mönster är en lista med jokertecken i skalstil, åtskilda "
-"med blanksteg."
 
 #: meld/resources/ui/preferences.ui:1494
 msgid "Change trimming"
-msgstr "Ändra borttagning av blanksteg"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1530
 msgid "Trim blank line differences from the start and end of changes"
-msgstr "Ta bort tomma radskillnader från början och slutet av ändringar"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1574
 msgid "Text filters"
-msgstr "Textfilter"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1612
 msgid ""
@@ -1491,193 +1397,187 @@ msgid ""
 "contains groups, only the groups are replaced. See the user manual for more "
 "details."
 msgstr ""
-"När du jämför filer kan du välja att ignorera vissa typer av ändringar. "
-"Varje mönster här är ett reguljärt python-uttryck som ersätter den text som "
-"matchar med en tom sträng innan jämförelsen utförs. Om uttrycket innehåller "
-"grupper kommer endast grupperna att ersättas. Se användarhandboken för mer "
-"information."
 
 #: meld/resources/ui/preferences.ui:1703
 msgid "Left is remote, right is local"
-msgstr "Vänster är fjärr, höger är lokal"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1707
 msgid "Left is local, right is remote"
-msgstr "Vänster är lokal, höger är fjärr"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1721
 msgid "Simple change map"
-msgstr "Enkel ändringskarta"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1725
 msgid "Compact source map"
-msgstr "Kompakt källkodskarta"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1729
 msgid "Full source map"
-msgstr "Fullständig källkodskarta"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1743
 msgid "Remote, merge, local"
-msgstr "Fjärr, sammanfoga, lokal"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1747
 msgid "Local, merge, remote"
-msgstr "Lokal, sammanfoga, fjärr"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1769
 msgid "1ns (ext4)"
-msgstr "1ns (ext4)"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1773
 msgid "100ns (NTFS)"
-msgstr "100ns (NTFS)"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1777
 msgid "1s (ext2/ext3)"
-msgstr "1s (ext2/ext3)"
+msgstr ""
 
 #: meld/resources/ui/preferences.ui:1781
 msgid "2s (VFAT)"
-msgstr "2s (VFAT)"
+msgstr ""
 
 #: meld/resources/ui/push-dialog.ui:9
 msgid "Push local commits to remote?"
-msgstr "Sänd lokala incheckningar till fjärr?"
+msgstr ""
 
 #: meld/resources/ui/push-dialog.ui:10
 msgid "The commits to be pushed are determined by your version control system."
-msgstr "Incheckningar att sända bestäms av ditt versionshanteringssystem."
+msgstr ""
 
 #: meld/resources/ui/push-dialog.ui:38
 msgid "_Push commits"
-msgstr "_Sänd incheckningar"
+msgstr ""
 
 #: meld/resources/ui/recent-selector.ui:16
 msgid "Search recent comparisons…"
-msgstr "Sök senaste jämförelser…"
+msgstr ""
 
 #: meld/resources/ui/revert-dialog.ui:9
 msgid "Discard unsaved changes to documents?"
-msgstr "Förkasta osparade ändringar i dokumenten?"
+msgstr ""
 
 #: meld/resources/ui/revert-dialog.ui:10
 msgid "Changes made to the following documents will be permanently lost:"
 msgstr ""
-"Ändringar utförda i följande dokument kommer att gå förlorade för alltid:"
 
 #: meld/resources/ui/revert-dialog.ui:39
 msgid "_Discard"
-msgstr "_Förkasta"
+msgstr "_მოცილება"
 
 #: meld/resources/ui/save-confirm-dialog.ui:9
 msgid "Save changes to documents before closing?"
-msgstr "Spara ändringar till dokument innan stängning?"
+msgstr ""
 
 #: meld/resources/ui/save-confirm-dialog.ui:10
 msgid "If you don’t save, changes will be permanently lost."
-msgstr "Sparar du inte kommer ändringar att gå förlorade för alltid."
+msgstr ""
 
 #: meld/resources/ui/save-confirm-dialog.ui:24
 msgid "Close _without Saving"
-msgstr "Stäng _utan att spara"
+msgstr "დახურვა _შენახვის გარეშე"
 
 #: meld/resources/ui/save-confirm-dialog.ui:41 meld/dirdiff.py:1229
 #: meld/iohelpers.py:56 meld/iohelpers.py:116
 msgid "_Cancel"
-msgstr "_Avbryt"
+msgstr "_შეწყვეტა"
 
 #: meld/resources/ui/save-confirm-dialog.ui:55
 msgid "_Save"
-msgstr "_Spara"
+msgstr ""
 
 #: meld/resources/ui/statusbar-menu.ui:9
 msgid "Show whitespace"
-msgstr "Visa tomrum"
+msgstr ""
 
 #: meld/resources/ui/statusbar-menu.ui:17
 msgid "Text wrapping"
-msgstr "Textradbrytning"
+msgstr "ტექსტის გადატანა"
 
 #: meld/resources/ui/vcview-menus.ui:7
 msgid "_Compare"
-msgstr "_Jämför"
+msgstr "_შედარება"
 
 #: meld/resources/ui/vcview-menus.ui:11
 msgid "Co_mmit…"
-msgstr "Che_cka in…"
+msgstr "_კომიტი…"
 
 #: meld/resources/ui/vcview-menus.ui:26
 msgid "Re_vert"
-msgstr "Åter_ställ"
+msgstr "დაბრუნება"
 
 #: meld/resources/ui/vcview-menus.ui:30
 msgid "Delete"
-msgstr "Ta bort"
+msgstr ""
 
 #: meld/resources/ui/vcview-menus.ui:37
 msgid "Resolve Conflict"
-msgstr "Lös konflikt"
+msgstr "კონფლიქტის მოგვარება"
 
 #: meld/resources/ui/vcview.ui:16
 msgid "Commit changes to version control"
-msgstr "Checka in ändringar till versionshanteraren"
+msgstr ""
 
 #: meld/resources/ui/vcview.ui:21
 msgid "Commit…"
-msgstr "Checka in…"
+msgstr "კომიტი…"
 
 #: meld/resources/ui/vcview.ui:38
 msgid "Pull remote changes to the local repository"
-msgstr "Hämta fjärrändringar till det lokala förrådet"
+msgstr ""
 
 #: meld/resources/ui/vcview.ui:51
 msgid "Push local changes to remote"
-msgstr "Sänd lokala ändringar till fjärr"
+msgstr ""
 
 #: meld/resources/ui/vcview.ui:74
 msgid "Add to version control"
-msgstr "Lägg till för versionshantering"
+msgstr ""
 
 #: meld/resources/ui/vcview.ui:87
 msgid "Remove from version control"
-msgstr "Ta bort från versionshantering"
+msgstr ""
 
 #: meld/resources/ui/vcview.ui:100
 msgid "Revert working copy to original state"
-msgstr "Återställ arbetskopian till ursprungligt tillstånd"
+msgstr ""
 
 #: meld/resources/ui/vcview.ui:113
 msgid "Mark as resolved in version control"
-msgstr "Markera som löst i versionshanteraren"
+msgstr ""
 
 #: meld/resources/ui/vcview.ui:140
 msgid "Open version controlled folder in this pane"
-msgstr "Öppna versionskontrollerad mapp i denna panel"
+msgstr ""
 
 #: meld/resources/ui/vcview.ui:229
 msgid "Location"
-msgstr "Plats"
+msgstr "მდებარეობა"
 
 #: meld/resources/ui/vcview.ui:238
 msgid "Status"
-msgstr "Status"
+msgstr "მდგომარეობა"
 
 #: meld/resources/ui/vcview.ui:247
 msgid "Extra"
-msgstr "Extra"
+msgstr "დამატებით"
 
 #: meld/resources/ui/vcview.ui:279
 msgid "Console output"
-msgstr "Konsolutskrift"
+msgstr "კონსოლში გამოტანა"
 
 #: meld/actiongutter.py:254
 msgid "Copy _up"
-msgstr "Kopiera _upp"
+msgstr ""
 
 #: meld/actiongutter.py:255
 msgid "Copy _down"
-msgstr "Kopiera _ned"
+msgstr ""
 
 #: meld/const.py:30
 msgid "UNIX (LF)"
@@ -1694,90 +1594,89 @@ msgstr "Mac OS (CR)"
 #. Create file size CellRenderer
 #: meld/dirdiff.py:624 meld/preferences.py:132
 msgid "Size"
-msgstr "Storlek"
+msgstr "ზომა"
 
 #. Create date-time CellRenderer
 #: meld/dirdiff.py:632 meld/preferences.py:133
 msgid "Modification time"
-msgstr "Ändringstid"
+msgstr "მოდიფიკაციის დრო"
 
 #. Create ISO-format date-time CellRenderer
 #: meld/dirdiff.py:640 meld/preferences.py:134
 msgid "Modification time (ISO)"
-msgstr "Ändringstid (ISO)"
+msgstr ""
 
 #. Create permissions CellRenderer
 #: meld/dirdiff.py:648 meld/preferences.py:135
 msgid "Permissions"
-msgstr "Rättigheter"
+msgstr "ნებართვები"
 
 #: meld/dirdiff.py:901
 #, python-brace-format
 msgid "{filename} (scanning…)"
-msgstr "{filename} (söker igenom…)"
+msgstr ""
 
 #: meld/dirdiff.py:933 meld/dirdiff.py:965
 #, python-brace-format
 msgid "[{label}] Scanning {folder}"
-msgstr "[{label}] Söker igenom {folder}"
+msgstr ""
 
 #: meld/dirdiff.py:1101
 #, python-brace-format
 msgid "[{label}] Done"
-msgstr "[{label}] Klar"
+msgstr ""
 
 #: meld/dirdiff.py:1114
 msgid "Folder {} is being compared to itself"
-msgstr "Mappen {} jämförs med sig själv"
+msgstr ""
 
 #: meld/dirdiff.py:1120
 msgid "Folders have no differences"
-msgstr "Mapparna skiljer sig inte åt"
+msgstr ""
 
 #: meld/dirdiff.py:1122
 msgid "Contents of scanned files in folders are identical."
-msgstr "Innehållet i mapparnas avsökta filer är identiskt."
+msgstr ""
 
 #: meld/dirdiff.py:1124
 msgid ""
 "Scanned files in folders appear identical, but contents have not been "
 "scanned."
 msgstr ""
-"Mapparnas avsökta filer verkar identiska, men innehållet har inte genomsökts."
 
 #: meld/dirdiff.py:1127
 msgid "File filters are in use, so not all files have been scanned."
-msgstr "Filfilter används, och därför har inte alla filer genomsökts."
+msgstr ""
 
 #: meld/dirdiff.py:1129
 msgid "Text filters are in use and may be masking content differences."
-msgstr "Textfilter används och kan dölja skillnader i innehåll."
+msgstr ""
 
 #: meld/dirdiff.py:1145 meld/filediff.py:1997
 msgid "Hide"
-msgstr "Dölj"
+msgstr "დამალვა"
 
 #: meld/dirdiff.py:1147 meld/filediff.py:1999 meld/filediff.py:2029
 #: meld/filediff.py:2031 meld/ui/msgarea.py:114 meld/ui/msgarea.py:127
 msgid "Hi_de"
-msgstr "_Dölj"
+msgstr "დამალვა"
 
 #: meld/dirdiff.py:1156
 msgid "Multiple errors occurred while scanning this folder"
-msgstr "Flera fel inträffade vid avsökning av denna mapp"
+msgstr ""
 
 #: meld/dirdiff.py:1157
 msgid "Files with invalid encodings found"
-msgstr "Filer med ogiltiga teckenkodningar hittades"
+msgstr ""
 
 #. TRANSLATORS: This is followed by a list of files
 #: meld/dirdiff.py:1159
 msgid "Some files were in an incorrect encoding. The names are something like:"
-msgstr "En del filer hade en felaktig kodning. Namnen är ungefär:"
+msgstr ""
 
 #: meld/dirdiff.py:1161
 msgid "Files hidden by case insensitive comparison"
-msgstr "Filer dolda av skiftlägeskänslig jämförelse"
+msgstr ""
 
 #. TRANSLATORS: This is followed by a list of files
 #: meld/dirdiff.py:1163
@@ -1785,18 +1684,16 @@ msgid ""
 "You are running a case insensitive comparison on a case sensitive "
 "filesystem. The following files in this folder are hidden:"
 msgstr ""
-"Du gör en skiftlägesokänslig jämförelse på ett skiftlägeskänsligt filsystem. "
-"En del filer syns inte:"
 
 #: meld/dirdiff.py:1174
 #, python-brace-format
 msgid "“{first_file}” hidden by “{second_file}”"
-msgstr "”{first_file}” dold av ”{second_file}”"
+msgstr ""
 
 #: meld/dirdiff.py:1236
 #, python-format
 msgid "Replace folder “%s”?"
-msgstr "Ersätt mappen ”%s”?"
+msgstr "ჩავანაცვლო საქაღალდე \"%s\"?"
 
 #: meld/dirdiff.py:1238
 #, python-format
@@ -1804,12 +1701,10 @@ msgid ""
 "Another folder with the same name already exists in “%s”.\n"
 "If you replace the existing folder, all files in it will be lost."
 msgstr ""
-"En annan mapp med samma namn existerar redan i ”%s”.\n"
-"Om du ersätter befintlig mapp kommer alla filer att förloras."
 
 #: meld/dirdiff.py:1251
 msgid "Error copying file"
-msgstr "Fel vid filkopiering"
+msgstr ""
 
 #: meld/dirdiff.py:1252
 #, python-brace-format
@@ -1819,136 +1714,128 @@ msgid ""
 "\n"
 "{error}"
 msgstr ""
-"Fel vid kopiering av {source}\n"
-"till {dest}.\n"
-"\n"
-"{error}"
 
 #: meld/dirdiff.py:1277 meld/vcview.py:768
 msgid "Error deleting {}"
-msgstr "Fel vid borttagning av {}"
+msgstr ""
 
 #: meld/dirdiff.py:1825
 msgid "No folder"
-msgstr "Ingen mapp"
+msgstr ""
 
 #: meld/dirdiff.py:1838
 msgid "Folder comparison:"
-msgstr "Mappjämförelse:"
+msgstr ""
 
 #: meld/filediff.py:1168
 msgid "Comparison results will be inaccurate"
-msgstr "Jämförelseresultat kommer att bli osäkra"
+msgstr ""
 
 #: meld/filediff.py:1170
 msgid ""
 "A filter changed the number of lines in the file, which is unsupported. The "
 "comparison will not be accurate."
 msgstr ""
-"Ett filter ändrade antalet rader i filen vilket inte stöds. Jämförelsen "
-"kommer att vara osäker."
 
 #: meld/filediff.py:1242
 msgid "Mark conflict as resolved?"
-msgstr "Markera konflikten som löst?"
+msgstr ""
 
 #: meld/filediff.py:1244
 msgid ""
 "If the conflict was resolved successfully, you may mark it as resolved now."
-msgstr "Om konflikten gick att lösa kan du markera den som löst nu."
+msgstr ""
 
 #: meld/filediff.py:1247
 msgid "Cancel"
-msgstr "Avbryt"
+msgstr "შეწყვეტა"
 
 #: meld/filediff.py:1248
 msgid "Mark _Resolved"
-msgstr "Markera som _löst"
+msgstr ""
 
 #: meld/filediff.py:1439 meld/filediff.py:1455
 msgid "Add Synchronization Point"
-msgstr "Lägg till synkroniseringspunkt"
+msgstr ""
 
 #: meld/filediff.py:1443
 msgid "Remove Synchronization Point"
-msgstr "Ta bort synkroniseringspunkt"
+msgstr ""
 
 #: meld/filediff.py:1447
 msgid "Move Synchronization Point"
-msgstr "Flytta synkroniseringspunkt"
+msgstr ""
 
 #: meld/filediff.py:1451
 msgid "Match Synchronization Point"
-msgstr "Matcha synkroniseringspunkt"
+msgstr ""
 
 #: meld/filediff.py:1475
 msgid "Clear Synchronization Points"
-msgstr "Rensa synkroniseringspunkter"
+msgstr ""
 
 #: meld/filediff.py:1535
 msgid "File comparison:"
-msgstr "Filjämförelse:"
+msgstr ""
 
 #: meld/filediff.py:1671
 #, python-format
 msgid "There was a problem opening the file “%s”."
-msgstr "Det uppstod ett problem vid öppnandet av filen ”%s”."
+msgstr "ფაილის გახსნის შეცდომა: %s."
 
 #: meld/filediff.py:1680
 #, python-format
 msgid "File %s appears to be a binary file."
-msgstr "Filen %s verkar vara en binärfil."
+msgstr ""
 
 #: meld/filediff.py:1682
 msgid "Do you want to open the file using the default application?"
-msgstr "Vill du öppna filen med standardprogrammet?"
+msgstr ""
 
 #: meld/filediff.py:1684
 msgid "Open"
-msgstr "Öppna"
+msgstr "გახსნა"
 
 #: meld/filediff.py:1706
 #, python-format
 msgid "[%s] Merging files"
-msgstr "[%s] Sammanfogar filer"
+msgstr ""
 
 #: meld/filediff.py:1720
 #, python-format
 msgid "[%s] Computing differences"
-msgstr "[%s] Beräknar skillnader"
+msgstr ""
 
 #: meld/filediff.py:1780
 #, python-format
 msgid "File %s has changed on disk"
-msgstr "Filen %s har ändrats på disk"
+msgstr ""
 
 #: meld/filediff.py:1781
 msgid "Do you want to reload the file?"
-msgstr "Vill du läsa om filen?"
+msgstr ""
 
 #: meld/filediff.py:1783
 msgid "_Reload"
-msgstr "_Läs om"
+msgstr "_გადატვირთვა"
 
 #: meld/filediff.py:1953
 msgid "File {} is being compared to itself"
-msgstr "Filen {} jämförs med sig själv"
+msgstr ""
 
 #: meld/filediff.py:1962
 msgid "Files are identical"
-msgstr "Filerna är identiska"
+msgstr ""
 
 #: meld/filediff.py:1975
 msgid ""
 "Text filters are being used, and may be masking differences between files. "
 "Would you like to compare the unfiltered files?"
 msgstr ""
-"Textfilter används och kan dölja skillnader mellan filer. Vill du jämföra de "
-"ofiltrerade filerna?"
 
 #: meld/filediff.py:1980
 msgid "Files differ in line endings only"
-msgstr "Filer skiljer sig endast vad gäller radslut"
+msgstr ""
 
 #: meld/filediff.py:1982
 #, python-format
@@ -1956,82 +1843,73 @@ msgid ""
 "Files are identical except for differing line endings:\n"
 "%s"
 msgstr ""
-"Filerna är identiska förutom radavsluten:\n"
-"%s"
 
 #: meld/filediff.py:2002
 msgid "Show without filters"
-msgstr "Visa utan filer"
+msgstr ""
 
 #: meld/filediff.py:2024
 msgid "Change highlighting incomplete"
-msgstr "Ändra markering av ofärdiga"
+msgstr ""
 
 #: meld/filediff.py:2025
 msgid ""
 "Some changes were not highlighted because they were too large. You can force "
 "Meld to take longer to highlight larger changes, though this may be slow."
 msgstr ""
-"En del ändringar markerades inte eftersom de var för stora. Du kan tvinga "
-"Meld till att längre tid på sig att markera större ändringar, men det kan "
-"bli långsamt."
 
 #: meld/filediff.py:2033
 msgid "Keep highlighting"
-msgstr "Använd markering"
+msgstr ""
 
 #: meld/filediff.py:2035
 msgid "_Keep highlighting"
-msgstr "_Använd markering"
+msgstr ""
 
 #: meld/filediff.py:2048
 msgid "Saving failed"
-msgstr "Misslyckades med att spara"
+msgstr "შენახვის შეცდომა"
 
 #: meld/filediff.py:2049
 msgid ""
 "Please consider copying any critical changes to another program or file to "
 "avoid data loss."
 msgstr ""
-"Överväg att kopiera kritiska ändringar till ett annat program eller en annan "
-"fil för att undvika förlust av data."
 
 #: meld/filediff.py:2058
 msgid "Save Left Pane As"
-msgstr "Spara vänsterpanel som"
+msgstr ""
 
 #: meld/filediff.py:2060
 msgid "Save Middle Pane As"
-msgstr "Spara mittenpanel som"
+msgstr ""
 
 #: meld/filediff.py:2062
 msgid "Save Right Pane As"
-msgstr "Spara högerpanel som"
+msgstr ""
 
 #: meld/filediff.py:2073
 #, python-format
 msgid "File %s has changed on disk since it was opened"
-msgstr "Filen %s har ändrats på disk sedan den öppnades"
+msgstr ""
 
 #: meld/filediff.py:2075
 msgid "If you save it, any external changes will be lost."
-msgstr "Om du sparar den kommer alla externa ändringar att gå förlorade."
+msgstr ""
 
 #: meld/filediff.py:2078
 msgid "Save Anyway"
-msgstr "Spara ändå"
+msgstr "დაიმახსოვრე ყველაფრის მიუხედავად"
 
 #: meld/filediff.py:2079
 msgid "Don’t Save"
-msgstr "Spara inte"
+msgstr "არ შეინახო"
 
 #: meld/filediff.py:2121
 msgid ""
 "File “{}” contains characters that can’t be encoded using its current "
 "encoding “{}”."
 msgstr ""
-"Filen ”{}” innehåller tecken som inte kan kodas med dess aktuella kodning "
-"”{}”."
 
 #: meld/filediff.py:2125 meld/patchdialog.py:138
 #, python-format
@@ -2039,17 +1917,15 @@ msgid ""
 "Couldn’t save file due to:\n"
 "%s"
 msgstr ""
-"Kunde in spara fil beroende på:\n"
-"%s"
 
 #: meld/filediff.py:2129 meld/patchdialog.py:137
 #, python-format
 msgid "Could not save file %s."
-msgstr "Kunde inte spara filen %s."
+msgstr ""
 
 #: meld/filediff.py:2539
 msgid "Live comparison updating disabled"
-msgstr "Inaktivera realtidsuppdateringar av jämförelser"
+msgstr ""
 
 #: meld/filediff.py:2540
 msgid ""
@@ -2057,52 +1933,47 @@ msgid ""
 "active. You can still manually refresh the comparison, and live updates will "
 "resume when synchronization points are cleared."
 msgstr ""
-"Realtidsuppdateringar av jämförelser är inaktiverade när "
-"synkroniseringspunkter är aktiva. Du kan fortfarande uppdatera jämförelsen "
-"manuellt, och uppdateringar i realtid kommer att fortsätta när "
-"synkroniseringspunkterna är rensade."
 
 #: meld/filediff.py:2568
 msgid "Can't swap unsaved files"
-msgstr "Kan inte växla osparade filer"
+msgstr ""
 
 #: meld/filediff.py:2570
 msgid "Files must be saved to disk before swapping panes."
-msgstr "Filer måste sparas till disk innan paneler växlas."
+msgstr ""
 
 #: meld/filediff.py:2577
 msgid "Can't swap version control comparisons"
-msgstr "Kan inte växla versionshanterade jämförelser"
+msgstr ""
 
 #: meld/filediff.py:2579
 msgid "Swapping panes is not supported in version control mode."
-msgstr "Växlande av paneler stöds inte i versionshanteringsläge."
+msgstr ""
 
 #: meld/iohelpers.py:41
 msgid "Deleting remote folders is not supported"
-msgstr "Att ta bort fjärrmappar stöds ej"
+msgstr ""
 
 #: meld/iohelpers.py:43
 msgid "Not a file or directory"
-msgstr "Inte en fil eller katalog"
+msgstr ""
 
 #: meld/iohelpers.py:47
 msgid "“{}” can’t be put in the trash. Do you want to delete it immediately?"
 msgstr ""
-"Kan inte flytta ”{}” till papperskorgen. Vill du ta bort den omedelbart?"
 
 #: meld/iohelpers.py:52
 msgid "This remote location does not support sending items to the trash."
-msgstr "Denna fjärrplats stöder inte att lägga objekt i papperskorgen."
+msgstr ""
 
 #: meld/iohelpers.py:58
 msgid "_Delete Permanently"
-msgstr "_Ta bort permanent"
+msgstr "_სამუდამოდ წაშლა"
 
 #: meld/iohelpers.py:110
 #, python-format
 msgid "Replace file “%s”?"
-msgstr "Ersätt filen ”%s”?"
+msgstr "ჩავანაცვლო ფაილი \"%s\"?"
 
 #: meld/iohelpers.py:112
 #, python-format
@@ -2110,125 +1981,123 @@ msgid ""
 "A file with this name already exists in “%s”.\n"
 "If you replace the existing file, its contents will be lost."
 msgstr ""
-"En fil med detta namn existerar redan i ”%s”.\n"
-"Om du ersätter befintlig fil kommer dess innehåll att gå förlorat."
 
 #: meld/meldapp.py:188
 msgid "wrong number of arguments supplied to --diff"
-msgstr "felaktigt antal argument angavs för --diff"
+msgstr ""
 
 #: meld/meldapp.py:193
 msgid "Start with an empty window"
-msgstr "Starta med ett tomt fönster"
+msgstr ""
 
 #: meld/meldapp.py:194 meld/meldapp.py:196
 msgid "file"
-msgstr "fil"
+msgstr ""
 
 #: meld/meldapp.py:194 meld/meldapp.py:198
 msgid "folder"
-msgstr "mapp"
+msgstr "საქაღალდე"
 
 #: meld/meldapp.py:195
 msgid "Start a version control comparison"
-msgstr "Starta en versionshanterad jämförelse"
+msgstr ""
 
 #: meld/meldapp.py:197
 msgid "Start a 2- or 3-way file comparison"
-msgstr "Starta med en två- eller trevägs filjämförelse"
+msgstr ""
 
 #: meld/meldapp.py:199
 msgid "Start a 2- or 3-way folder comparison"
-msgstr "Starta med en två- eller trevägs mappjämförelse"
+msgstr ""
 
 #: meld/meldapp.py:242
 #, python-format
 msgid "Error: %s\n"
-msgstr "Fel: %s\n"
+msgstr "შეცდომა: %s\n"
 
 #: meld/meldapp.py:249
 msgid "Meld is a file and directory comparison tool."
-msgstr "Meld är ett verktyg för att jämföra filer och kataloger."
+msgstr ""
 
 #: meld/meldapp.py:253
 msgid "Set label to use instead of file name"
-msgstr "Sätt etikett att använda istället för filnamn"
+msgstr ""
 
 #: meld/meldapp.py:256
 msgid "Open a new tab in an already running instance"
-msgstr "Öppna en ny flik i en redan körande instans"
+msgstr ""
 
 #: meld/meldapp.py:259
 msgid "Automatically compare all differing files on startup"
-msgstr "Jämför automatiskt alla filer som skiljer sig vid uppstart"
+msgstr ""
 
 #: meld/meldapp.py:262
 msgid "Ignored for compatibility"
-msgstr "Ignorerad för kompatibilitet"
+msgstr ""
 
 #: meld/meldapp.py:266
 msgid "Set the target file for saving a merge result"
-msgstr "Ställ in målfilen för att spara sammanfogat resultat"
+msgstr ""
 
 #: meld/meldapp.py:269
 msgid "Automatically merge files"
-msgstr "Sammanfoga automatiskt filer"
+msgstr ""
 
 #: meld/meldapp.py:273
 msgid "Load a saved comparison from a Meld comparison file"
-msgstr "Läs in en sparad jämförelse från en Meld jämförelsefil"
+msgstr ""
 
 #: meld/meldapp.py:277
 msgid "Create a diff tab for the supplied files or folders"
-msgstr "Skapar en diff-tabell för angivna filer eller mappar"
+msgstr ""
 
 #: meld/meldapp.py:297
 #, python-format
 msgid "too many arguments (wanted 0-3, got %d)"
-msgstr "för många argument (ville ha 0-3, fick %d)"
+msgstr ""
 
 #: meld/meldapp.py:300
 msgid "can’t auto-merge less than 3 files"
-msgstr "kan inte automatiskt sammanfoga mindre är tre filer"
+msgstr ""
 
 #: meld/meldapp.py:302
 msgid "can’t auto-merge directories"
-msgstr "kan inte automatiskt sammanfoga kataloger"
+msgstr ""
 
 #: meld/meldapp.py:317
 msgid "Error reading saved comparison file"
-msgstr "Fel vid läsning av den sparade konfigurationsfilen"
+msgstr ""
 
 #: meld/meldapp.py:334
 #, python-format
 msgid "invalid path or URI “%s”"
-msgstr "ogiltig sökväg eller URI ”%s”"
+msgstr ""
 
 #: meld/meldapp.py:341
 msgid "remote folder “{}” not supported"
-msgstr "fjärrmapp ”{}” stöds ej"
+msgstr ""
 
 #. TRANSLATORS: This is the label of a new, currently-unnamed file.
 #: meld/meldbuffer.py:115
 msgid "<unnamed>"
-msgstr "<namnlös>"
+msgstr "<უსახელო>"
 
 #: meld/melddoc.py:124
 msgid "untitled"
-msgstr "namnlös"
+msgstr "უსახელო"
 
 #: meld/meldwindow.py:158
 msgid "Filename"
-msgstr "Filnamn"
+msgstr ""
 
 #: meld/meldwindow.py:381
 #, python-format
 msgid "Need three files to auto-merge, got: %r"
-msgstr "Behöver tre filer för att sammanfoga automatiskt, fick: %r"
+msgstr ""
 
 #: meld/meldwindow.py:411
 msgid "Cannot compare a mixture of files and directories"
-msgstr "Kan inte jämföra en blandning av filer och kataloger"
+msgstr ""
 
 #: meld/misc.py:154
 msgid ""
@@ -2237,58 +2106,53 @@ msgid ""
 "Meld encountered a critical error while running:\n"
 "<tt>{}</tt>"
 msgstr ""
-"{}\n"
-"\n"
-"Meld stötte på ett kritiskt fel under körning:\n"
-"<tt>{}</tt>"
 
 #: meld/misc.py:205
 msgid "[None]"
-msgstr "[Ingen]"
+msgstr ""
 
 #: meld/preferences.py:37 meld/preferences.py:129
 msgid "label"
-msgstr "etikett"
+msgstr "ჭდე"
 
 #: meld/preferences.py:37 meld/preferences.py:129
 msgid "pattern"
-msgstr "mönster"
+msgstr "შაბლონი"
 
 #: meld/recent.py:111
 msgid "Version control:"
-msgstr "Versionshantering:"
+msgstr "ვერსიის კონტროლი:"
 
 #: meld/style.py:91
 msgid "Couldn’t find colour scheme details for {}; this is a bad install"
 msgstr ""
-"Kunde inte hitta färgschemadetaljer för {}; detta är en felaktig installation"
 
 #: meld/ui/bufferselectors.py:110
 #, python-brace-format
 msgid "{name} ({charset})"
-msgstr "{name} ({charset})"
+msgstr ""
 
 #: meld/ui/bufferselectors.py:140 meld/ui/bufferselectors.py:148
 msgid "Plain Text"
-msgstr "Vanlig text"
+msgstr "უბრალო ტექსტი"
 
 #: meld/ui/pathlabel.py:36
 msgid "Unnamed file"
-msgstr "Namnlös fil"
+msgstr ""
 
 #. Abbreviation for line, column so that it will fit in the status bar
 #: meld/ui/statusbar.py:125
 #, python-brace-format
 msgid "Ln {line}, Col {column}"
-msgstr "Rad {line}, kol {column}"
+msgstr ""
 
 #: meld/ui/statusbar.py:185
 msgid "Line you want to move the cursor to"
-msgstr "Rad du vill flytta markören till"
+msgstr ""
 
 #: meld/ui/vcdialogs.py:50
 msgid "No files will be committed"
-msgstr "Inga filer kommer att checkas in"
+msgstr ""
 
 #. Translators: First element is replaced by translated "%d
 #. unpushed commits", second element is replaced by translated
@@ -2296,699 +2160,188 @@ msgstr "Inga filer kommer att checkas in"
 #: meld/vc/git.py:92
 #, python-brace-format
 msgid "{unpushed_commits} in {unpushed_branches}"
-msgstr "{unpushed_commits} i {unpushed_branches}"
+msgstr ""
 
 #: meld/vc/git.py:94 meld/vc/git.py:104
 #, python-format
 msgid "%d unpushed commit"
 msgid_plural "%d unpushed commits"
-msgstr[0] "%d ej sänd incheckning"
-msgstr[1] "%d ej sända incheckningar"
+msgstr[0] ""
 
 #: meld/vc/git.py:97
 #, python-format
 msgid "%d branch"
 msgid_plural "%d branches"
-msgstr[0] "%d gren"
-msgstr[1] "%d grenar"
+msgstr[0] ""
 
 #: meld/vc/git.py:345
 #, python-brace-format
 msgid "Mode changed from {old_mode} to {new_mode}"
-msgstr "Läge ändrat från {old_mode} till {new_mode}"
+msgstr ""
 
 #: meld/vc/git.py:353
 msgid "Partially staged"
-msgstr "Delvis köad"
+msgstr ""
 
 #: meld/vc/git.py:353
 msgid "Staged"
-msgstr "Köad"
+msgstr ""
 
 #. Translators: This is the displayed name of a version control system
 #. when no version control system is actually found.
 #: meld/vc/_null.py:38
 msgid "None"
-msgstr "Ingen"
+msgstr "არაფერი"
 
 #: meld/vc/svn.py:203
 #, python-format
 msgid "Rev %s"
-msgstr "Rev %s"
+msgstr ""
 
 #: meld/vc/_vc.py:55
 msgid "Merged"
-msgstr "Sammanfogade"
+msgstr "გაერთიანდა"
 
 #: meld/vc/_vc.py:55
 msgid "Base"
-msgstr "Bas"
+msgstr "საბაზისო"
 
 #: meld/vc/_vc.py:55
 msgid "Local"
-msgstr "Lokal"
+msgstr "ლოკალური"
 
 #: meld/vc/_vc.py:55
 msgid "Remote"
-msgstr "Fjärr"
+msgstr "დაშორებული"
 
 #: meld/vc/_vc.py:74
 msgid "Error"
-msgstr "Fel"
+msgstr "შეცდომა"
 
 #: meld/vc/_vc.py:76
 msgid "Newly added"
-msgstr "Nyligen tillagt"
+msgstr ""
 
 #: meld/vc/_vc.py:78
 msgid "Renamed"
-msgstr "Bytt namn"
+msgstr "გადარქმეულია"
 
 #: meld/vc/_vc.py:79
 msgid "Conflict"
-msgstr "Konflikt"
+msgstr "კონფლიქტი"
 
 #: meld/vc/_vc.py:80
 msgid "Removed"
-msgstr "Borttagen"
+msgstr "ამოღებულია"
 
 #: meld/vc/_vc.py:81
 msgid "Missing"
-msgstr "Saknas"
+msgstr "აკლია"
 
 #: meld/vc/_vc.py:82
 msgid "Not present"
-msgstr "Inte närvarande"
+msgstr "არ არსებობს"
 
 #: meld/vc/_vc.py:83
 msgid "Scanning…"
-msgstr "Söker igenom…"
+msgstr "სკანირება…"
 
 #. Translators: This error message is shown when no
 #. repository of this type is found.
 #: meld/vcview.py:334
 #, python-format
 msgid "%(name)s (not found)"
-msgstr "%(name)s (hittades inte)"
+msgstr "%(name)s (ვერ ვიპოვე)"
 
 #. Translators: This error message is shown when a version
 #. control binary isn't installed.
 #: meld/vcview.py:338
 #, python-format
 msgid "%(name)s (%(cmd)s not installed)"
-msgstr "%(name)s (%(cmd)s inte installerad)"
+msgstr "%(name)s (%(cmd)s დაყენებული არაა)"
 
 #. Translators: This error message is shown when a version
 #. controlled repository is invalid.
 #: meld/vcview.py:342
 #, python-format
 msgid "%(name)s (invalid repository)"
-msgstr "%(name)s (ogiltigt förråd)"
+msgstr ""
 
 #: meld/vcview.py:356
 msgid "No valid version control system found in this folder"
-msgstr "Inget giltigt versionshanteringssystem hittades i denna mapp"
+msgstr ""
 
 #: meld/vcview.py:358
 msgid "Choose which version control system to use"
-msgstr "Välj vilket versionshanteringssystem som ska användas"
+msgstr ""
 
 #. TRANSLATORS: This is the name of the version control
 #. system being used, e.g., "Git" or "Subversion"
 #: meld/vcview.py:414
 #, python-brace-format
 msgid "{vc} comparison:"
-msgstr "{vc}-jämförelse:"
+msgstr ""
 
 #. Initial yield so when we add this to our tasks, we don't
 #. create iterators that may be invalidated.
 #: meld/vcview.py:423
 msgid "Scanning repository"
-msgstr "Söker igenom förråd"
+msgstr ""
 
 #: meld/vcview.py:452
 #, python-format
 msgid "Scanning %s"
-msgstr "Söker igenom %s"
+msgstr ""
 
 #: meld/vcview.py:491
 msgid "(Empty)"
-msgstr "(Tom)"
+msgstr ""
 
 #: meld/vcview.py:539
 #, python-format
 msgid "%s — local"
-msgstr "%s — lokal"
+msgstr "%s — ლოკალური"
 
 #: meld/vcview.py:540
 #, python-format
 msgid "%s — remote"
-msgstr "%s — fjärr"
+msgstr "%s — დაშორებული"
 
 #: meld/vcview.py:548
 #, python-format
 msgid "%s (local, merge, remote)"
-msgstr "%s (lokal, sammanfoga, fjärr)"
+msgstr ""
 
 #: meld/vcview.py:553
 #, python-format
 msgid "%s (remote, merge, local)"
-msgstr "%s (fjärr, sammanfoga, lokal)"
+msgstr ""
 
 #: meld/vcview.py:564
 #, python-format
 msgid "%s — repository"
-msgstr "%s — förråd"
+msgstr "%s — რეპოზიტორია"
 
 #: meld/vcview.py:570
 #, python-format
 msgid "%s (working, repository)"
-msgstr "%s (arbetskopia, förråd)"
+msgstr ""
 
 #: meld/vcview.py:574
 #, python-format
 msgid "%s (repository, working)"
-msgstr "%s (förråd, arbetskopia)"
+msgstr ""
 
 #: meld/vcview.py:739
 msgid "Remove folder and all its files?"
-msgstr "Ta bort mapp och dess filer?"
+msgstr ""
 
 #: meld/vcview.py:741
 msgid ""
 "This will remove all selected files and folders, and all files within any "
 "selected folders, from version control."
 msgstr ""
-"Det här kommer att ta bort alla markerade filer och mappar samt alla filer i "
-"markerade mappar från versionshantering."
 
 #: meld/vcview.py:854
 msgid "Clear"
-msgstr "Töm"
-
-#~ msgid "Refresh"
-#~ msgstr "Uppdatera"
-
-#, python-brace-format
-#~ msgid "Location: {path}"
-#~ msgstr "Plats: {path}"
-
-#~ msgid "_Update"
-#~ msgstr "_Uppdatera"
-
-#~ msgid "Mar_k as Resolved"
-#~ msgstr "Markera som _löst"
-
-#~ msgid "Update"
-#~ msgstr "Uppdatera"
-
-#~ msgid "Update working copy from version control"
-#~ msgstr "Uppdatera arbetskopian från versionshanteraren"
-
-#~ msgid "Push"
-#~ msgstr "_Sänd"
-
-#~ msgid "Add"
-#~ msgstr "Lägg till"
-
-#~ msgid "Remove"
-#~ msgstr "Ta bort"
-
-#~ msgid "Mark as Resolved"
-#~ msgstr "Markera som löst"
-
-#~ msgid "Revert"
-#~ msgstr "Återställ"
-
-#~ msgid "Delete from working copy"
-#~ msgstr "Ta bort från arbetskopia"
-
-#~ msgid "[%s] Scanning %s"
-#~ msgstr "[%s] Söker igenom %s"
-
-#~ msgid "Ln %i, Col %i"
-#~ msgstr "Rad %i, kolumn %i"
-
-#~ msgid "%s in %s"
-#~ msgstr "%s i %s"
-
-#~ msgid "%s: %s"
-#~ msgstr "%s: %s"
-
-#~ msgid "Autodetect Encoding"
-#~ msgstr "Upptäck automatiskt kodning"
-
-#~ msgid "Current Locale ({})"
-#~ msgstr "Aktuell lokal ({})"
-
-#~ msgid "Cannot import: "
-#~ msgstr "Kan inte importera: "
-
-#~ msgid "Meld requires %s or higher."
-#~ msgstr "Meld kräver %s eller högre."
-
-#~ msgid "About Meld"
-#~ msgstr "Om Meld"
-
-#~ msgid "Website"
-#~ msgstr "Webbplats"
-
-#~ msgid ""
-#~ "Couldn’t load Meld-specific CSS (%s)\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Kunde inte läsa in Meld-specifik CSS (%s)\n"
-#~ "%s"
-
-#~ msgid "Meld Diff Viewer"
-#~ msgstr "Meld diffvisare"
-
-#~ msgid "Displayed whitespace"
-#~ msgstr "Visade tomrum"
-
-#~ msgid "Meld base scheme"
-#~ msgstr "Meld basschema"
-
-#~ msgid "_About"
-#~ msgstr "_Om"
-
-#~ msgid "_Quit"
-#~ msgstr "_Avsluta"
-
-#~ msgid "Collapse selected folder and all subfolders"
-#~ msgstr "Fäll ihop markerad mapp och alla undermappar"
-
-#~ msgid "Expand selected folder and all subfolders"
-#~ msgstr "Expandera markerad mapp och alla undermappar"
-
-#~ msgid "Copy to _Left"
-#~ msgstr "Kopiera till _vänster"
-
-#~ msgid "Copy to _Right"
-#~ msgstr "Kopiera till _höger"
-
-#~ msgid "Hide selected"
-#~ msgstr "Dölj markerade"
-
-#~ msgid ""
-#~ "Consider differently-cased filenames that are otherwise-identical to be "
-#~ "the same"
-#~ msgstr ""
-#~ "Behandla filnamn som lika om de skiljer i skiftläge men annars är "
-#~ "identiska"
-
-#~ msgid "Show identical"
-#~ msgstr "Visa identiska"
-
-#~ msgid "Show new"
-#~ msgstr "Visa nya"
-
-#~ msgid "Show modified"
-#~ msgstr "Visa ändrade"
-
-#~ msgid "Filters"
-#~ msgstr "Filter"
-
-#~ msgid "Set active filters"
-#~ msgstr "Ställ in aktiva filter"
-
-#~ msgid "Create a patch using differences between files"
-#~ msgstr "Skapa en programfix med skillnaderna mellan filer"
-
-#~ msgid "Save all files in the current comparison"
-#~ msgstr "Spara alla filer i den aktuella jämförelsen"
-
-#~ msgid "Revert files to their saved versions"
-#~ msgstr "Återställ filer till deras sparade versioner"
-
-#~ msgid "Add a synchronization point for changes between files"
-#~ msgstr "Lägg till en synkroniseringspunkt för ändringar mellan filer"
-
-#~ msgid "Clear sychronization points for changes between files"
-#~ msgstr "Rensa synkroniseringspunkter för ändringar mellan filer"
-
-#~ msgid "Previous Conflict"
-#~ msgstr "Föregående konflikt"
-
-#~ msgid "Push to Left"
-#~ msgstr "Tryck över åt vänster"
-
-#~ msgid "Push to Right"
-#~ msgstr "Tryck över åt höger"
-
-#~ msgid "Pull from Left"
-#~ msgstr "Dra från vänster"
-
-#~ msgid "Pull change from the left"
-#~ msgstr "Dra ändring från vänster"
-
-#~ msgid "Pull from Right"
-#~ msgstr "Dra från höger"
-
-#~ msgid "Pull change from the right"
-#~ msgstr "Dra ändring från höger"
-
-#~ msgid "Copy Above Left"
-#~ msgstr "Kopiera ovan vänster"
-
-#~ msgid "Copy Below Left"
-#~ msgstr "Kopiera under vänster"
-
-#~ msgid "Copy Above Right"
-#~ msgstr "Kopiera ovan höger"
-
-#~ msgid "Copy Below Right"
-#~ msgstr "Kopiera under höger"
-
-#~ msgid "Merge all non-conflicting changes from the left"
-#~ msgstr "Sammanfoga alla ändringar utan konflikter från vänster"
-
-#~ msgid "Merge all non-conflicting changes from the right"
-#~ msgstr "Sammanfoga alla ändringar utan konflikter från höger"
-
-#~ msgid "Merge all non-conflicting changes from left and right panes"
-#~ msgstr ""
-#~ "Sammanfoga alla ändringar utan konflikter från vänstra och högra panelen"
-
-#~ msgid "Previous Pane"
-#~ msgstr "Föregående panel"
-
-#~ msgid "Move keyboard focus to the previous document in this comparison"
-#~ msgstr ""
-#~ "Flytta tangentbordsfokus till föregående dokument i denna jämförelse"
-
-#~ msgid "Next Pane"
-#~ msgstr "Nästa panel"
-
-#~ msgid "Move keyboard focus to the next document in this comparison"
-#~ msgstr "Flytta tangentbordsfokus till nästa dokument i denna jämförelse"
-
-#~ msgid "Lock scrolling of all panes"
-#~ msgstr "Lås rullning för alla paneler"
-
-#~ msgid "_Previous"
-#~ msgstr "_Föregående"
-
-#~ msgid "_Next"
-#~ msgstr "_Nästa"
-
-#~ msgid "Find:"
-#~ msgstr "Sök:"
-
-#~ msgid "Replace _with:"
-#~ msgstr "Ersätt _med:"
-
-#~ msgid "Directory comparison"
-#~ msgstr "Katalogjämförelse"
-
-#~ msgid "Version control view"
-#~ msgstr "Versionshanteringsvy"
-
-#~ msgid "Console"
-#~ msgstr "Konsol"
-
-#~ msgid "Show or hide the version control console output pane"
-#~ msgstr "Visa eller dölj konsolutmatningspanelen för versionshanteringen"
-
-#~ msgid "_Flatten"
-#~ msgstr "_Platta till"
-
-#~ msgid "_Modified"
-#~ msgstr "_Ändrade"
-
-#~ msgid "Show modified files"
-#~ msgstr "Visa ändrade filer"
-
-#~ msgid "Show normal files"
-#~ msgstr "Visa normala filer"
-
-#~ msgid "Un_versioned"
-#~ msgstr "O_versionerade"
-
-#~ msgid "Show unversioned files"
-#~ msgstr "Visa filer som inte versionshanteras"
-
-#~ msgid "Show ignored files"
-#~ msgstr "Visa ignorerade filer"
-
-#~ msgid "Hide %s"
-#~ msgstr "Dölj %s"
-
-#~ msgid "_New Comparison…"
-#~ msgstr "_Ny jämförelse…"
-
-#~ msgid "Save the current file"
-#~ msgstr "Spara den aktuella filen"
-
-#~ msgid "Save the current file with a different name"
-#~ msgstr "Spara den aktuella filen med ett annat namn"
-
-#~ msgid "Close the current file"
-#~ msgstr "Stäng den aktuella filen"
-
-#~ msgid "_Edit"
-#~ msgstr "_Redigera"
-
-#~ msgid "Undo the last action"
-#~ msgstr "Ångra den senaste åtgärden"
-
-#~ msgid "Redo the last undone action"
-#~ msgstr "Gör om den senaste ångrade åtgärden"
-
-#~ msgid "Cut the selection"
-#~ msgstr "Klipp ut markering"
-
-#~ msgid "Copy the selection"
-#~ msgstr "Kopiera markering"
-
-#~ msgid "Paste the clipboard"
-#~ msgstr "Klistra in Urklipp"
-
-#~ msgid "Search for text"
-#~ msgstr "Sök efter text"
-
-#~ msgid "Find Ne_xt"
-#~ msgstr "Sök _nästa"
-
-#~ msgid "Search forwards for the same text"
-#~ msgstr "Sök framåt efter samma text"
-
-#~ msgid "Find _Previous"
-#~ msgstr "Sök _Föregående"
-
-#~ msgid "Search backwards for the same text"
-#~ msgstr "Sök bakåt efter samma text"
-
-#~ msgid "Find and replace text"
-#~ msgstr "Sök och ersätt text"
-
-#~ msgid "Go to _Line"
-#~ msgstr "Gå till _rad"
-
-#~ msgid "Go to a specific line"
-#~ msgstr "Gå till en specifik rad"
-
-#~ msgid "_Changes"
-#~ msgstr "Än_dringar"
-
-#~ msgid "Next Change"
-#~ msgstr "Nästa ändring"
-
-#~ msgid "Previous Change"
-#~ msgstr "Föregående ändring"
-
-#~ msgid "Open selected file or directory in the default external application"
-#~ msgstr "Öppna markerad fil eller katalog i det externa standardprogrammet"
-
-#~ msgid "Stop the current action"
-#~ msgstr "Stoppa den aktuella åtgärden"
-
-#~ msgid "View the comparison in fullscreen"
-#~ msgstr "Visa jämförelsen i helskärmsläge"
-
-#~ msgid "Open Recent"
-#~ msgstr "Öppna senaste"
-
-#~ msgid "Show toolbar"
-#~ msgstr "Visa verktygsfältet"
-
-#~ msgid "If true, the window toolbar is visible."
-#~ msgstr "Om true så är fönsterverktygsfältet synlig."
-
-#~ msgid "Show statusbar"
-#~ msgstr "Visa statusraden"
-
-#~ msgid "If true, the window statusbar is visible."
-#~ msgstr "Om true så är fönsterstatusraden synlig."
-
-#~ msgid "Editable List"
-#~ msgstr "Redigerbar lista"
-
-#~ msgid "Meld Preferences"
-#~ msgstr "Inställningar för Meld"
-
-#~ msgid "_Toolbar"
-#~ msgstr "Ver_ktygsfält"
-
-#~ msgid "Show or hide the toolbar"
-#~ msgstr "Visa eller dölj verktygsfältet"
-
-#~ msgid "_Meld"
-#~ msgstr "_Meld"
-
-#~ msgid "Quit the program"
-#~ msgstr "Avsluta programmet"
-
-#~ msgid "Prefere_nces"
-#~ msgstr "Inställ_ningar"
-
-#~ msgid "Configure the application"
-#~ msgstr "Konfigurera programmet"
-
-#~ msgid "_Contents"
-#~ msgstr "_Innehåll"
-
-#~ msgid "Open the Meld manual"
-#~ msgstr "Öppna handboken för Meld"
-
-#~ msgid "About this application"
-#~ msgstr "Om detta program"
-
-#~ msgid "_Save as UTF-8"
-#~ msgstr "_Spara som UTF-8"
-
-#~ msgid "Couldn’t encode text as “%s”"
-#~ msgstr "Kunde inte koda text som ”%s”"
-
-#~ msgid "Error removing %s"
-#~ msgstr "Fel vid borttagning av %s"
-
-#~ msgid "INS"
-#~ msgstr "INF"
-
-#~ msgid "OVR"
-#~ msgstr "ÖVR"
-
-#~ msgid "Format as Patch..."
-#~ msgstr "Formatera som programfix…"
-
-#~ msgid "Co_mmit..."
-#~ msgstr "Ver_kställ…"
-
-#~ msgid "Find..."
-#~ msgstr "Sök…"
-
-#~ msgid "_Replace..."
-#~ msgstr "_Ersätt…"
-
-#~ msgid "Meld does not support Python 3."
-#~ msgstr "Meld stöder inte Python 3."
-
-#~ msgid "_Tabs"
-#~ msgstr "_Flikar"
-
-#~ msgid "_Previous Tab"
-#~ msgstr "För_egående flik"
-
-#~ msgid "Activate previous tab"
-#~ msgstr "Aktivera föregående flik"
-
-#~ msgid "_Next Tab"
-#~ msgstr "_Nästa flik"
-
-#~ msgid "Activate next tab"
-#~ msgstr "Aktivera nästa flik"
-
-#~ msgid "Move Tab _Left"
-#~ msgstr "Flytta flik åt _vänster"
-
-#~ msgid "Move current tab to left"
-#~ msgstr "Flytta aktuell flik åt vänster"
-
-#~ msgid "Move Tab _Right"
-#~ msgstr "Flytta flik åt _höger"
-
-#~ msgid "Move current tab to right"
-#~ msgstr "Flytta aktuell flik åt höger"
-
-#~ msgid "Switch to this tab"
-#~ msgstr "Växla till denna flik"
-
-#~ msgid ""
-#~ "These text encodings will be automatically used (in order) to try to "
-#~ "decode loaded text files."
-#~ msgstr ""
-#~ "Dessa textkodningar kommer automatiskt att användas (i ordning) för att "
-#~ "försöka avkoda inlästa textfiler."
-
-#~ msgid "[%s] Set num panes"
-#~ msgstr "[%s] Ställ in numrerade paneler"
-
-#~ msgid "[%s] Opening files"
-#~ msgstr "[%s] Öppnar filer"
-
-#~ msgid "Could not read file"
-#~ msgstr "Kunde inte läsa filen"
-
-#~ msgid "[%s] Reading files"
-#~ msgstr "[%s] Läser filer"
-
-#~ msgid "%s is not in encodings: %s"
-#~ msgstr "%s finns inte i teckenkodningar: %s"
-
-#~ msgid "Inconsistent line endings found"
-#~ msgstr "Inkonsekventa radavslut funna"
-
-#~ msgid ""
-#~ "'%s' contains a mixture of line endings. Select the line ending format to "
-#~ "use."
-#~ msgstr ""
-#~ "Filen ”%s” innehåller olika typer av radslut. Välj radavslutsformat att "
-#~ "använda."
-
-#~ msgid "Revision"
-#~ msgstr "Version"
-
-#~ msgid "Options"
-#~ msgstr "Alternativ"
-
-#~ msgid "%s (%s)"
-#~ msgstr "%s (%s)"
-
-#~ msgid "Copy _Left"
-#~ msgstr "Kopiera _vänster"
-
-#~ msgid "Copy _Right"
-#~ msgstr "Kopiera _höger"
-
-#~ msgid ""
-#~ "'%s' exists.\n"
-#~ "Overwrite?"
-#~ msgstr ""
-#~ "”%s” finns redan.\n"
-#~ "Skriv över?"
-
-#~ msgid "Clear manual change sychronization points"
-#~ msgstr "Rensa manuella ändringar av synkroniseringspunkter"
-
-#~ msgid "Cycle Through Documents"
-#~ msgstr "Bläddra genom dokumenten"
-
-#~ msgid ""
-#~ "\"%s\" exists!\n"
-#~ "Overwrite?"
-#~ msgstr ""
-#~ "”%s” finns redan!\n"
-#~ "Skriv över?"
-
-#~ msgid ""
-#~ "Error writing to %s\n"
-#~ "\n"
-#~ "%s."
-#~ msgstr ""
-#~ "Fel vid skrivning till %s\n"
-#~ "\n"
-#~ "%s."
-
-#~ msgid "Regular expression error"
-#~ msgstr "Fel i reguljärt uttryck"
+msgstr "სუფთა ცა"

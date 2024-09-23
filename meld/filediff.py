@@ -740,6 +740,9 @@ class FileDiff(Gtk.VBox, MeldDoc):
         self.set_action_enabled('previous-pane', pane > 0)
         self.set_action_enabled('next-pane', pane < self.num_panes - 1)
         self.set_action_enabled('swap-2-panes', self.num_panes == 2)
+
+        self.update_text_actions_sensitivity()
+
         # FIXME: don't queue_draw() on everything... just on what changed
         self.queue_draw()
 
@@ -1122,7 +1125,7 @@ class FileDiff(Gtk.VBox, MeldDoc):
     @Gtk.Template.Callback()
     def on_textview_focus_in_event(self, view, event):
         self.focus_pane = view
-        self.findbar.textview = view
+        self.findbar.set_text_view(self.focus_pane)
         self.on_cursor_position_changed(view.get_buffer(), None, True)
         self._set_save_action_sensitivity()
         self._set_merge_action_sensitivity()
@@ -2557,9 +2560,33 @@ class FileDiff(Gtk.VBox, MeldDoc):
         self.refresh_comparison()
 
     def action_swap(self, *args):
-        buffer0 = self.textbuffer[0]
-        buffer1 = self.textbuffer[1]
-        self.set_files([buffer1.data.gfile, buffer0.data.gfile])
+        buffers = self.textbuffer[:self.num_panes]
+        gfiles = [buf.data.gfile for buf in buffers]
+
+        have_unnamed_files = any(gfile is None for gfile in gfiles)
+        have_modified_files = any(buf.get_modified() for buf in buffers)
+
+        if have_unnamed_files or have_modified_files:
+            misc.error_dialog(
+                primary=_("Can't swap unsaved files"),
+                secondary=_(
+                    "Files must be saved to disk before swapping panes."
+                )
+            )
+            return
+
+        if self.meta.get("tablabel", None):
+            misc.error_dialog(
+                primary=_("Can't swap version control comparisons"),
+                secondary=_(
+                    "Swapping panes is not supported in version control mode."
+                )
+            )
+            return
+
+        self.set_labels([self.filelabel[1].props.label,
+                        self.filelabel[0].props.label])
+        self.set_files([gfiles[1], gfiles[0]])
 
 
 FileDiff.set_css_name('meld-file-diff')
