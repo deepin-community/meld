@@ -1,3 +1,23 @@
+meld (3.22.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Mon, 01 Apr 2024 12:09:55 -0400
+
+meld (3.22.1-2) unstable; urgency=medium
+
+  * Replace Depends: libgtk-3-0 with gir1.2-gtk-3.0 (Closes: #1067193)
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 19 Mar 2024 16:52:04 -0400
+
+meld (3.22.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Stop using debian/control.in and dh-sequence-gnome
+  * Update standards version to 4.6.2, no changes needed
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Mon, 19 Feb 2024 16:32:18 -0500
+
 meld (3.22.0-2) unstable; urgency=medium
 
   [ Debian Janitor ]
